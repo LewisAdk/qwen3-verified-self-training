@@ -4,7 +4,7 @@ title: "Verified Self-Training in a Small Language Model: A Prespecified Case St
 authors:
   - family-names: Adkins
     given-names: Lewis
-type: report
+type: software
 date-released: 2026-10-18
 repository-code: "https://github.com/LewisAdk/qwen3-verified-self-training"
 license: MIT
