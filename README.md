@@ -44,7 +44,7 @@ The same pinned base model was later fine-tuned for conversation, packaged for i
 
 ## AI assistance
 
-Codex (OpenAI) assisted with code, analyses, literature review, figures, tables and manuscript drafting. The author designed the study, chose the experiments and success rules, and is responsible for the results and text.
+Claude (Anthropic) and Codex (OpenAI) assisted with code, analyses, literature review, figures, tables and manuscript drafting. The author designed the study, chose the experiments and success rules, and is responsible for the results and text.
 
 ## Licence
 
