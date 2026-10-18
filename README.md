@@ -2,6 +2,8 @@
 
 **A prespecified case study on GSM-Symbolic** · Lewis Adkins · 2026 · preprint (not peer-reviewed)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23459643.svg)](https://doi.org/10.5281/zenodo.23459643)
+
 📄 Paper: [PDF](paper/verified-self-training-qwen3-1.7b.pdf) · [DOCX](paper/verified-self-training-qwen3-1.7b.docx)
 
 ## Summary

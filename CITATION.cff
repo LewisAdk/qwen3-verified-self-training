@@ -5,6 +5,8 @@ authors:
   - family-names: Adkins
     given-names: Lewis
 type: software
+version: "1.0"
+doi: 10.5281/zenodo.23459643
 date-released: 2026-10-18
 repository-code: "https://github.com/LewisAdk/qwen3-verified-self-training"
 license: MIT
