@@ -1,0 +1,9 @@
+{
+  "stage": "labeling",
+  "supervisor_pid": 383,
+  "utc": "2026-10-13T20:19:32.101251+00:00",
+  "wall_epoch": 1791922772.0538287,
+  "monotonic": 1752.363322586,
+  "budget_seconds": 18000,
+  "full_training_authorized": false
+}

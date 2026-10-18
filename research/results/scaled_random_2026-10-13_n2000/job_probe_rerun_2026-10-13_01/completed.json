@@ -1,0 +1,9 @@
+{
+  "stage": "probe",
+  "exit_code": 0,
+  "timed_out": false,
+  "utc": "2026-10-13T23:45:20.984127+00:00",
+  "wall_elapsed_seconds": 37.81118106842041,
+  "monotonic_elapsed_seconds": 37.811181602000005,
+  "full_training_started": false
+}

@@ -1,0 +1,19 @@
+{
+  "pid": 386,
+  "system": {
+    "wall_epoch": 1791937323.2407937,
+    "utc": "2026-10-14T00:22:03.240795+00:00",
+    "monotonic_seconds": 254.139812746,
+    "boottime_seconds": 254.139813345,
+    "uptime_seconds": 254.13,
+    "boot_id": "ff414fec-7838-4541-8029-5e71e3b75a4d"
+  },
+  "seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "stages": "three training processes, then three evaluation processes, then frozen CPU analysis",
+  "no_retry": true,
+  "accuracy_blind_until_all_evaluations": true
+}

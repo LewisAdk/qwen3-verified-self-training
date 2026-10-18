@@ -1,0 +1,1083 @@
+{
+  "status": "all_three_evaluations_complete_then_analyzed",
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 2026,
+  "primary_estimand": "Equal three-seed mean scaled-random minus saved batch-8 base, percentage points",
+  "family_method": "Frozen original family-only weighted-count percentile method; same family draws across models and P1/P2; seeds fixed",
+  "seed_family_method": "Frozen random.Random(2026); seed IDs resampled first then shared sorted family draw; matching seed pairs for original random",
+  "primary": {
+    "comparison": "scaled_random minus base, equal three-seed mean",
+    "estimate": 1.5833333333333333,
+    "ci95": [
+      -2.136904761904762,
+      5.5
+    ],
+    "family_only_original_decision": "inconclusive",
+    "decision": "not_success",
+    "seed_and_family_ci95": [
+      -3.076923076923077,
+      6.5
+    ]
+  },
+  "family_results": {
+    "questions": 400,
+    "original_families": 37,
+    "metrics": {
+      "p1/accuracy/base": {
+        "estimate": 49.0,
+        "ci95": [
+          34.11764705882353,
+          63.47826086956522
+        ]
+      },
+      "p1/accuracy/scaled_random_seed_2026": {
+        "estimate": 57.5,
+        "ci95": [
+          41.904761904761905,
+          71.9047619047619
+        ]
+      },
+      "p1/difference_pp/scaled_random_seed_2026_minus_base": {
+        "estimate": 8.5,
+        "ci95": [
+          1.0526315789473697,
+          16.42857142857143
+        ]
+      },
+      "p1/accuracy/scaled_random_seed_2027": {
+        "estimate": 51.5,
+        "ci95": [
+          36.111111111111114,
+          66.36363636363636
+        ]
+      },
+      "p1/difference_pp/scaled_random_seed_2027_minus_base": {
+        "estimate": 2.5,
+        "ci95": [
+          -2.5,
+          8.333333333333336
+        ]
+      },
+      "p1/accuracy/scaled_random_seed_2028": {
+        "estimate": 50.0,
+        "ci95": [
+          35.55555555555556,
+          63.63755980861242
+        ]
+      },
+      "p1/difference_pp/scaled_random_seed_2028_minus_base": {
+        "estimate": 1.0,
+        "ci95": [
+          -4.347826086956523,
+          7.368421052631575
+        ]
+      },
+      "p1/accuracy/original_random_seed_2026": {
+        "estimate": 54.0,
+        "ci95": [
+          38.69565217391305,
+          68.82352941176471
+        ]
+      },
+      "p1/difference_pp/original_random_seed_2026_minus_base": {
+        "estimate": 5.0,
+        "ci95": [
+          -0.7142857142857153,
+          10.588235294117652
+        ]
+      },
+      "p1/accuracy/original_random_seed_2027": {
+        "estimate": 54.0,
+        "ci95": [
+          38.888888888888886,
+          68.23529411764706
+        ]
+      },
+      "p1/difference_pp/original_random_seed_2027_minus_base": {
+        "estimate": 5.0,
+        "ci95": [
+          -0.8695652173913047,
+          11.176470588235297
+        ]
+      },
+      "p1/accuracy/original_random_seed_2028": {
+        "estimate": 53.0,
+        "ci95": [
+          38.0,
+          67.6470588235294
+        ]
+      },
+      "p1/difference_pp/original_random_seed_2028_minus_base": {
+        "estimate": 4.0,
+        "ci95": [
+          -1.25,
+          9.411764705882355
+        ]
+      },
+      "p1/accuracy/scaled_random_seed_mean": {
+        "estimate": 53.0,
+        "ci95": [
+          38.11594202898551,
+          66.85185185185185
+        ]
+      },
+      "p1/accuracy/original_random_seed_mean": {
+        "estimate": 53.666666666666664,
+        "ci95": [
+          38.88888888888889,
+          67.84348739495798
+        ]
+      },
+      "p1/difference_pp/scaled_random_minus_base": {
+        "estimate": 4.0,
+        "ci95": [
+          -1.0526315789473684,
+          10.0
+        ]
+      },
+      "p1/difference_pp/scaled_random_minus_original_random": {
+        "estimate": -0.6666666666666666,
+        "ci95": [
+          -4.696969696969697,
+          4.445652173913026
+        ]
+      },
+      "p1/difference_pp/scaled_random_minus_original_random_seed_2026": {
+        "estimate": 3.5,
+        "ci95": [
+          -2.5,
+          9.444444444444443
+        ]
+      },
+      "p1/difference_pp/scaled_random_minus_original_random_seed_2027": {
+        "estimate": -2.5,
+        "ci95": [
+          -10.555555555555557,
+          6.111111111111114
+        ]
+      },
+      "p1/difference_pp/scaled_random_minus_original_random_seed_2028": {
+        "estimate": -3.0,
+        "ci95": [
+          -8.94736842105263,
+          3.0443143812708953
+        ]
+      },
+      "p2/accuracy/base": {
+        "estimate": 29.5,
+        "ci95": [
+          16.363636363636363,
+          43.68585526315787
+        ]
+      },
+      "p2/accuracy/scaled_random_seed_2026": {
+        "estimate": 29.5,
+        "ci95": [
+          16.25,
+          43.5
+        ]
+      },
+      "p2/difference_pp/scaled_random_seed_2026_minus_base": {
+        "estimate": 0.0,
+        "ci95": [
+          -4.5,
+          4.285714285714285
+        ]
+      },
+      "p2/accuracy/scaled_random_seed_2027": {
+        "estimate": 30.0,
+        "ci95": [
+          15.625,
+          45.0
+        ]
+      },
+      "p2/difference_pp/scaled_random_seed_2027_minus_base": {
+        "estimate": 0.5,
+        "ci95": [
+          -7.0588235294117645,
+          8.18181818181818
+        ]
+      },
+      "p2/accuracy/scaled_random_seed_2028": {
+        "estimate": 26.5,
+        "ci95": [
+          13.157894736842104,
+          41.0
+        ]
+      },
+      "p2/difference_pp/scaled_random_seed_2028_minus_base": {
+        "estimate": -3.0,
+        "ci95": [
+          -9.333333333333336,
+          2.857142857142854
+        ]
+      },
+      "p2/accuracy/original_random_seed_2026": {
+        "estimate": 31.5,
+        "ci95": [
+          16.5,
+          47.50297619047615
+        ]
+      },
+      "p2/difference_pp/original_random_seed_2026_minus_base": {
+        "estimate": 2.0,
+        "ci95": [
+          -5.625,
+          10.476190476190474
+        ]
+      },
+      "p2/accuracy/original_random_seed_2027": {
+        "estimate": 29.5,
+        "ci95": [
+          15.882352941176471,
+          44.09090909090909
+        ]
+      },
+      "p2/difference_pp/original_random_seed_2027_minus_base": {
+        "estimate": 0.0,
+        "ci95": [
+          -5.0,
+          5.416666666666664
+        ]
+      },
+      "p2/accuracy/original_random_seed_2028": {
+        "estimate": 31.0,
+        "ci95": [
+          15.555555555555555,
+          47.5
+        ]
+      },
+      "p2/difference_pp/original_random_seed_2028_minus_base": {
+        "estimate": 1.5,
+        "ci95": [
+          -5.789473684210524,
+          9.545948616600787
+        ]
+      },
+      "p2/accuracy/scaled_random_seed_mean": {
+        "estimate": 28.666666666666668,
+        "ci95": [
+          15.396164021164022,
+          42.728535353535335
+        ]
+      },
+      "p2/accuracy/original_random_seed_mean": {
+        "estimate": 30.666666666666668,
+        "ci95": [
+          16.166666666666668,
+          46.11249999999998
+        ]
+      },
+      "p2/difference_pp/scaled_random_minus_base": {
+        "estimate": -0.8333333333333334,
+        "ci95": [
+          -6.078431372549019,
+          4.166666666666667
+        ]
+      },
+      "p2/difference_pp/scaled_random_minus_original_random": {
+        "estimate": -2.0,
+        "ci95": [
+          -8.55072463768116,
+          4.259444444444442
+        ]
+      },
+      "p2/difference_pp/scaled_random_minus_original_random_seed_2026": {
+        "estimate": -2.0,
+        "ci95": [
+          -8.888888888888886,
+          4.399999999999999
+        ]
+      },
+      "p2/difference_pp/scaled_random_minus_original_random_seed_2027": {
+        "estimate": 0.5,
+        "ci95": [
+          -6.0,
+          6.363636363636363
+        ]
+      },
+      "p2/difference_pp/scaled_random_minus_original_random_seed_2028": {
+        "estimate": -4.5,
+        "ci95": [
+          -15.005434782608694,
+          4.0
+        ]
+      },
+      "pooled/accuracy/base": {
+        "estimate": 39.25,
+        "ci95": [
+          28.0,
+          50.0
+        ]
+      },
+      "pooled/accuracy/scaled_random_seed_2026": {
+        "estimate": 43.5,
+        "ci95": [
+          31.904761904761905,
+          54.651162790697676
+        ]
+      },
+      "pooled/difference_pp/scaled_random_seed_2026_minus_base": {
+        "estimate": 4.25,
+        "ci95": [
+          0.0,
+          8.809523809523803
+        ]
+      },
+      "pooled/accuracy/scaled_random_seed_2027": {
+        "estimate": 40.75,
+        "ci95": [
+          29.068633011911515,
+          51.75
+        ]
+      },
+      "pooled/difference_pp/scaled_random_seed_2027_minus_base": {
+        "estimate": 1.5,
+        "ci95": [
+          -3.170731707317074,
+          6.410256410256409
+        ]
+      },
+      "pooled/accuracy/scaled_random_seed_2028": {
+        "estimate": 38.25,
+        "ci95": [
+          27.027027027027028,
+          49.02439024390244
+        ]
+      },
+      "pooled/difference_pp/scaled_random_seed_2028_minus_base": {
+        "estimate": -1.0,
+        "ci95": [
+          -5.5,
+          3.414634146341463
+        ]
+      },
+      "pooled/accuracy/original_random_seed_2026": {
+        "estimate": 42.75,
+        "ci95": [
+          30.526315789473685,
+          54.47434210526315
+        ]
+      },
+      "pooled/difference_pp/original_random_seed_2026_minus_base": {
+        "estimate": 3.5,
+        "ci95": [
+          -1.2820512820512846,
+          8.53658536585366
+        ]
+      },
+      "pooled/accuracy/original_random_seed_2027": {
+        "estimate": 41.75,
+        "ci95": [
+          30.263157894736842,
+          52.68460365853656
+        ]
+      },
+      "pooled/difference_pp/original_random_seed_2027_minus_base": {
+        "estimate": 2.5,
+        "ci95": [
+          -1.4634146341463392,
+          6.578947368421051
+        ]
+      },
+      "pooled/accuracy/original_random_seed_2028": {
+        "estimate": 42.0,
+        "ci95": [
+          29.75,
+          53.58974358974359
+        ]
+      },
+      "pooled/difference_pp/original_random_seed_2028_minus_base": {
+        "estimate": 2.75,
+        "ci95": [
+          -1.7948717948717956,
+          7.382326007325993
+        ]
+      },
+      "pooled/accuracy/scaled_random_seed_mean": {
+        "estimate": 40.833333333333336,
+        "ci95": [
+          29.57236842105263,
+          51.50019841269841
+        ]
+      },
+      "pooled/accuracy/original_random_seed_mean": {
+        "estimate": 42.166666666666664,
+        "ci95": [
+          30.416170634920636,
+          53.41085271317829
+        ]
+      },
+      "pooled/difference_pp/scaled_random_minus_base": {
+        "estimate": 1.5833333333333333,
+        "ci95": [
+          -2.136904761904762,
+          5.5
+        ]
+      },
+      "pooled/difference_pp/scaled_random_minus_original_random": {
+        "estimate": -1.3333333333333333,
+        "ci95": [
+          -5.121951219512195,
+          2.719691857849747
+        ]
+      },
+      "pooled/difference_pp/scaled_random_minus_original_random_seed_2026": {
+        "estimate": 0.75,
+        "ci95": [
+          -3.9024390243902403,
+          5.2631578947368425
+        ]
+      },
+      "pooled/difference_pp/scaled_random_minus_original_random_seed_2027": {
+        "estimate": -1.0,
+        "ci95": [
+          -6.15476190476191,
+          4.358974358974358
+        ]
+      },
+      "pooled/difference_pp/scaled_random_minus_original_random_seed_2028": {
+        "estimate": -3.75,
+        "ci95": [
+          -9.736842105263158,
+          1.5
+        ]
+      }
+    },
+    "paired_flips": {
+      "p1/scaled_random_seed_2026_versus_base": {
+        "fixed": 26,
+        "regressed": 9,
+        "net": 17
+      },
+      "p1/scaled_random_seed_2026_versus_original_random_seed_2026": {
+        "fixed": 22,
+        "regressed": 15,
+        "net": 7
+      },
+      "p1/scaled_random_seed_2027_versus_base": {
+        "fixed": 21,
+        "regressed": 16,
+        "net": 5
+      },
+      "p1/scaled_random_seed_2027_versus_original_random_seed_2027": {
+        "fixed": 21,
+        "regressed": 26,
+        "net": -5
+      },
+      "p1/scaled_random_seed_2028_versus_base": {
+        "fixed": 16,
+        "regressed": 14,
+        "net": 2
+      },
+      "p1/scaled_random_seed_2028_versus_original_random_seed_2028": {
+        "fixed": 17,
+        "regressed": 23,
+        "net": -6
+      },
+      "p2/scaled_random_seed_2026_versus_base": {
+        "fixed": 15,
+        "regressed": 15,
+        "net": 0
+      },
+      "p2/scaled_random_seed_2026_versus_original_random_seed_2026": {
+        "fixed": 16,
+        "regressed": 20,
+        "net": -4
+      },
+      "p2/scaled_random_seed_2027_versus_base": {
+        "fixed": 16,
+        "regressed": 15,
+        "net": 1
+      },
+      "p2/scaled_random_seed_2027_versus_original_random_seed_2027": {
+        "fixed": 20,
+        "regressed": 19,
+        "net": 1
+      },
+      "p2/scaled_random_seed_2028_versus_base": {
+        "fixed": 9,
+        "regressed": 15,
+        "net": -6
+      },
+      "p2/scaled_random_seed_2028_versus_original_random_seed_2028": {
+        "fixed": 14,
+        "regressed": 23,
+        "net": -9
+      },
+      "pooled/scaled_random_seed_2026_versus_base": {
+        "fixed": 41,
+        "regressed": 24,
+        "net": 17
+      },
+      "pooled/scaled_random_seed_2026_versus_original_random_seed_2026": {
+        "fixed": 38,
+        "regressed": 35,
+        "net": 3
+      },
+      "pooled/scaled_random_seed_2027_versus_base": {
+        "fixed": 37,
+        "regressed": 31,
+        "net": 6
+      },
+      "pooled/scaled_random_seed_2027_versus_original_random_seed_2027": {
+        "fixed": 41,
+        "regressed": 45,
+        "net": -4
+      },
+      "pooled/scaled_random_seed_2028_versus_base": {
+        "fixed": 25,
+        "regressed": 29,
+        "net": -4
+      },
+      "pooled/scaled_random_seed_2028_versus_original_random_seed_2028": {
+        "fixed": 31,
+        "regressed": 46,
+        "net": -15
+      }
+    },
+    "numeric_scoring_diagnostic": {
+      "base": {
+        "verdict_changes": 0,
+        "numeric_correct": 157,
+        "legacy_correct": 157
+      },
+      "scaled_random_seed_2026": {
+        "verdict_changes": 0,
+        "numeric_correct": 174,
+        "legacy_correct": 174
+      },
+      "scaled_random_seed_2027": {
+        "verdict_changes": 0,
+        "numeric_correct": 163,
+        "legacy_correct": 163
+      },
+      "scaled_random_seed_2028": {
+        "verdict_changes": 0,
+        "numeric_correct": 153,
+        "legacy_correct": 153
+      },
+      "original_random_seed_2026": {
+        "verdict_changes": 0,
+        "numeric_correct": 171,
+        "legacy_correct": 171
+      },
+      "original_random_seed_2027": {
+        "verdict_changes": 0,
+        "numeric_correct": 167,
+        "legacy_correct": 167
+      },
+      "original_random_seed_2028": {
+        "verdict_changes": 0,
+        "numeric_correct": 168,
+        "legacy_correct": 168
+      }
+    },
+    "primary": {
+      "comparison": "scaled_random minus base, equal three-seed mean",
+      "estimate": 1.5833333333333333,
+      "ci95": [
+        -2.136904761904762,
+        5.5
+      ],
+      "family_only_original_decision": "inconclusive",
+      "decision": "not_success",
+      "seed_and_family_ci95": [
+        -3.076923076923077,
+        6.5
+      ]
+    },
+    "secondary": {
+      "comparison": "scaled_random minus original_random, equal three-seed means",
+      "estimate": -1.3333333333333333,
+      "ci95": [
+        -5.121951219512195,
+        2.719691857849747
+      ]
+    }
+  },
+  "seed_family_original_random_ci95": [
+    -6.25,
+    3.4146341463414633
+  ],
+  "response_diagnostics": {
+    "2026": {
+      "pooled": {
+        "questions": 400,
+        "parsed": 392,
+        "unparsed": 8,
+        "cap_hits": 8,
+        "cap_hits_unparsed": 7
+      },
+      "p1": {
+        "questions": 200,
+        "parsed": 196,
+        "unparsed": 4,
+        "cap_hits": 4,
+        "cap_hits_unparsed": 3
+      },
+      "p2": {
+        "questions": 200,
+        "parsed": 196,
+        "unparsed": 4,
+        "cap_hits": 4,
+        "cap_hits_unparsed": 4
+      }
+    },
+    "2027": {
+      "pooled": {
+        "questions": 400,
+        "parsed": 389,
+        "unparsed": 11,
+        "cap_hits": 12,
+        "cap_hits_unparsed": 11
+      },
+      "p1": {
+        "questions": 200,
+        "parsed": 198,
+        "unparsed": 2,
+        "cap_hits": 3,
+        "cap_hits_unparsed": 2
+      },
+      "p2": {
+        "questions": 200,
+        "parsed": 191,
+        "unparsed": 9,
+        "cap_hits": 9,
+        "cap_hits_unparsed": 9
+      }
+    },
+    "2028": {
+      "pooled": {
+        "questions": 400,
+        "parsed": 390,
+        "unparsed": 10,
+        "cap_hits": 10,
+        "cap_hits_unparsed": 10
+      },
+      "p1": {
+        "questions": 200,
+        "parsed": 197,
+        "unparsed": 3,
+        "cap_hits": 3,
+        "cap_hits_unparsed": 3
+      },
+      "p2": {
+        "questions": 200,
+        "parsed": 193,
+        "unparsed": 7,
+        "cap_hits": 7,
+        "cap_hits_unparsed": 7
+      }
+    }
+  },
+  "secondary_v2": {
+    "2026": {
+      "pooled": {
+        "questions": 400,
+        "correct": 174,
+        "accuracy": 43.5,
+        "verdict_changes": 0,
+        "v1_correct_v2_wrong": 0,
+        "v1_wrong_v2_correct": 0,
+        "invalid_or_missing": 10,
+        "continuations": 0,
+        "presentation_markers": 1
+      },
+      "p1": {
+        "questions": 200,
+        "correct": 115,
+        "accuracy": 57.5,
+        "verdict_changes": 0,
+        "v1_correct_v2_wrong": 0,
+        "v1_wrong_v2_correct": 0,
+        "invalid_or_missing": 3,
+        "continuations": 0,
+        "presentation_markers": 1
+      },
+      "p2": {
+        "questions": 200,
+        "correct": 59,
+        "accuracy": 29.5,
+        "verdict_changes": 0,
+        "v1_correct_v2_wrong": 0,
+        "v1_wrong_v2_correct": 0,
+        "invalid_or_missing": 7,
+        "continuations": 0,
+        "presentation_markers": 0
+      }
+    },
+    "2027": {
+      "pooled": {
+        "questions": 400,
+        "correct": 162,
+        "accuracy": 40.5,
+        "verdict_changes": 1,
+        "v1_correct_v2_wrong": 1,
+        "v1_wrong_v2_correct": 0,
+        "invalid_or_missing": 16,
+        "continuations": 0,
+        "presentation_markers": 0
+      },
+      "p1": {
+        "questions": 200,
+        "correct": 102,
+        "accuracy": 51.0,
+        "verdict_changes": 1,
+        "v1_correct_v2_wrong": 1,
+        "v1_wrong_v2_correct": 0,
+        "invalid_or_missing": 3,
+        "continuations": 0,
+        "presentation_markers": 0
+      },
+      "p2": {
+        "questions": 200,
+        "correct": 60,
+        "accuracy": 30.0,
+        "verdict_changes": 0,
+        "v1_correct_v2_wrong": 0,
+        "v1_wrong_v2_correct": 0,
+        "invalid_or_missing": 13,
+        "continuations": 0,
+        "presentation_markers": 0
+      }
+    },
+    "2028": {
+      "pooled": {
+        "questions": 400,
+        "correct": 153,
+        "accuracy": 38.25,
+        "verdict_changes": 0,
+        "v1_correct_v2_wrong": 0,
+        "v1_wrong_v2_correct": 0,
+        "invalid_or_missing": 17,
+        "continuations": 1,
+        "presentation_markers": 0
+      },
+      "p1": {
+        "questions": 200,
+        "correct": 100,
+        "accuracy": 50.0,
+        "verdict_changes": 0,
+        "v1_correct_v2_wrong": 0,
+        "v1_wrong_v2_correct": 0,
+        "invalid_or_missing": 3,
+        "continuations": 0,
+        "presentation_markers": 0
+      },
+      "p2": {
+        "questions": 200,
+        "correct": 53,
+        "accuracy": 26.5,
+        "verdict_changes": 0,
+        "v1_correct_v2_wrong": 0,
+        "v1_wrong_v2_correct": 0,
+        "invalid_or_missing": 14,
+        "continuations": 1,
+        "presentation_markers": 0
+      }
+    }
+  },
+  "secondary_v2_verdict_changes": [
+    {
+      "seed": 2027,
+      "key": [
+        "p1",
+        21,
+        10
+      ],
+      "v1_prediction": "4",
+      "v1_correct": true,
+      "reference": "4",
+      "secondary_v2": {
+        "continuation": false,
+        "correct": false,
+        "prediction": null,
+        "presentation": false,
+        "reason": "invalid_answer_line"
+      },
+      "response": " On Tuesday and Wednesday, Kai watched 4 hours x 2 days = 8 hours of TV.\nOn Thursday, he watched 45 minutes x x episodes = 45x minutes of TV.\nOn Friday, he watched 2 hours + 30 minutes = 2.5 hours of TV.\nOn Saturday, he watched 4 episodes x 4 hours = 16 hours of TV.\nOn Sunday, he watched 3 episodes x 30 minutes = 90 minutes of TV.\nIn total, he watched 8 + 45x + 2.5 + 16 + 1.5 = 31 hours of TV.\nSimplifying, we get 45x + 27 = 31.\nSubtracting 27 from both sides, we get 45x = 4.\nDividing both sides by 45, we get x = 4/45.\nTherefore, Kai watched 4/45 episodes of 45-minute shows on Thursday.\n#### 4/45\n"
+    }
+  ],
+  "clocks": {
+    "phases": {
+      "evaluate_2026": {
+        "flags": {
+          "wall_clock_jump": 0,
+          "suspend_gap": 0,
+          "sample_gap": 0,
+          "boot_id_changed": 0
+        },
+        "samples": 763,
+        "query_errors": 0,
+        "windows_clock_errors": 0,
+        "peak_device_wide_gib": 5.3076171875
+      },
+      "evaluate_2027": {
+        "flags": {
+          "wall_clock_jump": 0,
+          "suspend_gap": 0,
+          "sample_gap": 0,
+          "boot_id_changed": 0
+        },
+        "samples": 813,
+        "query_errors": 0,
+        "windows_clock_errors": 0,
+        "peak_device_wide_gib": 5.3076171875
+      },
+      "evaluate_2028": {
+        "flags": {
+          "wall_clock_jump": 0,
+          "suspend_gap": 0,
+          "sample_gap": 0,
+          "boot_id_changed": 0
+        },
+        "samples": 820,
+        "query_errors": 0,
+        "windows_clock_errors": 0,
+        "peak_device_wide_gib": 5.931640625
+      },
+      "train_2026": {
+        "flags": {
+          "wall_clock_jump": 0,
+          "suspend_gap": 0,
+          "sample_gap": 0,
+          "boot_id_changed": 0
+        },
+        "samples": 1527,
+        "query_errors": 0,
+        "windows_clock_errors": 0,
+        "peak_device_wide_gib": 7.7333984375
+      },
+      "train_2027": {
+        "flags": {
+          "wall_clock_jump": 0,
+          "suspend_gap": 0,
+          "sample_gap": 0,
+          "boot_id_changed": 0
+        },
+        "samples": 1588,
+        "query_errors": 0,
+        "windows_clock_errors": 0,
+        "peak_device_wide_gib": 7.736328125
+      },
+      "train_2028": {
+        "flags": {
+          "wall_clock_jump": 0,
+          "suspend_gap": 0,
+          "sample_gap": 0,
+          "boot_id_changed": 0
+        },
+        "samples": 1828,
+        "query_errors": 0,
+        "windows_clock_errors": 0,
+        "peak_device_wide_gib": 7.736328125
+      }
+    },
+    "wall_clock_events": [],
+    "full_phase_maximum_wall_clock_flag_seconds": 0,
+    "full_phase_maximum_event": null,
+    "entire_experiment_maximum_wall_clock_flag_seconds": 3.41389358001652,
+    "entire_experiment_maximum_event": {
+      "phase": "job_labeling_rerun_2026-10-13_01/system_time_device_memory.jsonl",
+      "utc": "2026-10-13T23:25:36.510667+00:00",
+      "wall_delta_seconds": -2.3583383560180664,
+      "monotonic_delta_seconds": 1.0555552239984536,
+      "boottime_delta_seconds": 1.0555551130000822,
+      "wall_clock_jump": true,
+      "suspend_gap": false,
+      "sample_gap": false,
+      "boot_id_changed": false
+    },
+    "definition": "Absolute difference between successive wall-clock and monotonic deltas, not accumulated drift; raw deltas also reported. Cause unconfirmed."
+  },
+  "source_sha256": "ab9d62f7cadac833cea8fb57415754962449971a3e98c07616516505589ddd29",
+  "set_sha256": "ca030c17dc2fe1d193a908099bf12cc66929f3ec461170aef44998578085de62",
+  "training": {
+    "2026": {
+      "status": "completed_two_epochs",
+      "phase": "train",
+      "group": "random",
+      "seed": 2026,
+      "source_sha256": "d8381ab86bb6020293121dc5dd32dac113901fbb8ddac8540fe4d777cea5a1b9",
+      "training_fingerprint": "5e0c667fcd16cd6bc3912b0bfda6fda442a7881369a998aef9254e828698b3e3",
+      "example_count": 2000,
+      "example_exposures": 4000,
+      "maximum_sequence_length": 868,
+      "epoch_mean_losses": [
+        0.15950622271467,
+        0.14087172038387508
+      ],
+      "mean_loss": 0.15018897154927255,
+      "attempted_optimizer_updates": 1000,
+      "successful_optimizer_updates": 1000,
+      "skipped_optimizer_updates": 0,
+      "skipped_steps": [],
+      "supervised_tokens_seen": 369144,
+      "supervised_tokens_in_successful_updates": 369144,
+      "initial_free_gpu_gib": 6.9365234375,
+      "total_gpu_gib": 7.99969482421875,
+      "peak_reserved_gpu_gib": 9.609375,
+      "peak_allocated_gpu_gib": 5.056802272796631,
+      "elapsed_training_minutes": 26.7310192542,
+      "gpu": "NVIDIA GeForce RTX 2080 SUPER",
+      "settings": {
+        "epochs": 2,
+        "learning_rate": 0.0001,
+        "microbatch": 1,
+        "gradient_accumulation": 4,
+        "max_sequence_length": 1024,
+        "lora_rank": 4,
+        "lora_alpha": 8,
+        "lora_dropout": 0.0,
+        "target_modules": [
+          "q_proj",
+          "v_proj"
+        ],
+        "bias": "none",
+        "dtype": "float16",
+        "optimizer": "AdamW",
+        "weight_decay": 0.0,
+        "gradient_clip_norm": 1.0,
+        "learning_rate_schedule": "constant; no scheduler",
+        "gradient_checkpointing": true,
+        "use_reentrant": false,
+        "prompt_loss_mask": -100,
+        "gradient_scaling": "torch.amp.GradScaler cuda defaults; automatic overflow scaling",
+        "checkpoint_selection": "final after exactly two epochs only"
+      },
+      "all_protected_hashes_match": true,
+      "final_adapter_saved": true,
+      "probe_selected_indices": null,
+      "adapter_files_sha256": {
+        "adapter_model.safetensors": "50f7d0f9527732d8e1ceea1426bd55be5dcc4fab8c0dbdfd58ae106015025dcf",
+        "README.md": "a25388a7e123dbc58e461c52ab143d7d618bae646400f8b3e5dd284404bfbd41",
+        "adapter_config.json": "fd327484e346e76c7c1dc40956ce044791f90c6f5695ad31a0c93ae543400e98"
+      }
+    },
+    "2027": {
+      "status": "completed_two_epochs",
+      "phase": "train",
+      "group": "random",
+      "seed": 2027,
+      "source_sha256": "d8381ab86bb6020293121dc5dd32dac113901fbb8ddac8540fe4d777cea5a1b9",
+      "training_fingerprint": "5e0c667fcd16cd6bc3912b0bfda6fda442a7881369a998aef9254e828698b3e3",
+      "example_count": 2000,
+      "example_exposures": 4000,
+      "maximum_sequence_length": 868,
+      "epoch_mean_losses": [
+        0.16017625115765258,
+        0.1408263407079503
+      ],
+      "mean_loss": 0.15050129593280143,
+      "attempted_optimizer_updates": 1000,
+      "successful_optimizer_updates": 1000,
+      "skipped_optimizer_updates": 0,
+      "skipped_steps": [],
+      "supervised_tokens_seen": 369144,
+      "supervised_tokens_in_successful_updates": 369144,
+      "initial_free_gpu_gib": 6.9365234375,
+      "total_gpu_gib": 7.99969482421875,
+      "peak_reserved_gpu_gib": 12.166015625,
+      "peak_allocated_gpu_gib": 5.055978298187256,
+      "elapsed_training_minutes": 27.965182650066666,
+      "gpu": "NVIDIA GeForce RTX 2080 SUPER",
+      "settings": {
+        "epochs": 2,
+        "learning_rate": 0.0001,
+        "microbatch": 1,
+        "gradient_accumulation": 4,
+        "max_sequence_length": 1024,
+        "lora_rank": 4,
+        "lora_alpha": 8,
+        "lora_dropout": 0.0,
+        "target_modules": [
+          "q_proj",
+          "v_proj"
+        ],
+        "bias": "none",
+        "dtype": "float16",
+        "optimizer": "AdamW",
+        "weight_decay": 0.0,
+        "gradient_clip_norm": 1.0,
+        "learning_rate_schedule": "constant; no scheduler",
+        "gradient_checkpointing": true,
+        "use_reentrant": false,
+        "prompt_loss_mask": -100,
+        "gradient_scaling": "torch.amp.GradScaler cuda defaults; automatic overflow scaling",
+        "checkpoint_selection": "final after exactly two epochs only"
+      },
+      "all_protected_hashes_match": true,
+      "final_adapter_saved": true,
+      "probe_selected_indices": null,
+      "adapter_files_sha256": {
+        "adapter_model.safetensors": "de88f51085ffc67ad10979d1239834199937d576a898619fb1061097ffe506a5",
+        "README.md": "a25388a7e123dbc58e461c52ab143d7d618bae646400f8b3e5dd284404bfbd41",
+        "adapter_config.json": "0e64449988ea14260b4bcaf081ea32ac45798c396ed99a26a222671662b0a562"
+      }
+    },
+    "2028": {
+      "status": "completed_two_epochs",
+      "phase": "train",
+      "group": "random",
+      "seed": 2028,
+      "source_sha256": "d8381ab86bb6020293121dc5dd32dac113901fbb8ddac8540fe4d777cea5a1b9",
+      "training_fingerprint": "5e0c667fcd16cd6bc3912b0bfda6fda442a7881369a998aef9254e828698b3e3",
+      "example_count": 2000,
+      "example_exposures": 4000,
+      "maximum_sequence_length": 868,
+      "epoch_mean_losses": [
+        0.1601382727958262,
+        0.14070905076130294
+      ],
+      "mean_loss": 0.15042366177856456,
+      "attempted_optimizer_updates": 1000,
+      "successful_optimizer_updates": 1000,
+      "skipped_optimizer_updates": 0,
+      "skipped_steps": [],
+      "supervised_tokens_seen": 369144,
+      "supervised_tokens_in_successful_updates": 369144,
+      "initial_free_gpu_gib": 6.9365234375,
+      "total_gpu_gib": 7.99969482421875,
+      "peak_reserved_gpu_gib": 12.71875,
+      "peak_allocated_gpu_gib": 5.055139064788818,
+      "elapsed_training_minutes": 32.46262865871667,
+      "gpu": "NVIDIA GeForce RTX 2080 SUPER",
+      "settings": {
+        "epochs": 2,
+        "learning_rate": 0.0001,
+        "microbatch": 1,
+        "gradient_accumulation": 4,
+        "max_sequence_length": 1024,
+        "lora_rank": 4,
+        "lora_alpha": 8,
+        "lora_dropout": 0.0,
+        "target_modules": [
+          "q_proj",
+          "v_proj"
+        ],
+        "bias": "none",
+        "dtype": "float16",
+        "optimizer": "AdamW",
+        "weight_decay": 0.0,
+        "gradient_clip_norm": 1.0,
+        "learning_rate_schedule": "constant; no scheduler",
+        "gradient_checkpointing": true,
+        "use_reentrant": false,
+        "prompt_loss_mask": -100,
+        "gradient_scaling": "torch.amp.GradScaler cuda defaults; automatic overflow scaling",
+        "checkpoint_selection": "final after exactly two epochs only"
+      },
+      "all_protected_hashes_match": true,
+      "final_adapter_saved": true,
+      "probe_selected_indices": null,
+      "adapter_files_sha256": {
+        "adapter_model.safetensors": "e70a12d142e383fc99f6729f6b415ebe4d30162ed9c19a75a8e0423e0247a831",
+        "README.md": "a25388a7e123dbc58e461c52ab143d7d618bae646400f8b3e5dd284404bfbd41",
+        "adapter_config.json": "0e64449988ea14260b4bcaf081ea32ac45798c396ed99a26a222671662b0a562"
+      }
+    }
+  },
+  "full_training_complete": true,
+  "no_reserved_or_GSM8K_test_evaluation": true
+}

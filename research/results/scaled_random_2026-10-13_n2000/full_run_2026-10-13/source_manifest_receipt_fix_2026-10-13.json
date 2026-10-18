@@ -1,0 +1,16 @@
+{
+  "sources": {
+    "/home/lewis/rsi-research/results/scaled_random_2026-10-13_n2000/full_run_2026-10-13/src/runner_receipt_fix_2026_10_13.py": "ab9d62f7cadac833cea8fb57415754962449971a3e98c07616516505589ddd29",
+    "/home/lewis/rsi-research/results/scaled_random_2026-10-13_n2000/full_run_2026-10-13/src/supervisor_receipt_fix_2026_10_13.py": "7f3892992c1a8b9973c9496e52c7c641b649cb92d959440c014d4b77f8a0d046",
+    "/home/lewis/rsi-research/results/scaled_random_2026-10-13_n2000/full_run_2026-10-13/src/cpu_tests_receipt_fix_retry1_2026_10_13.py": "85ce8389642863e9a8f1af59ca713a332358840d60fb89cdffcc06ad69138a06",
+    "/home/lewis/rsi-research/results/scaled_random_2026-10-13_n2000/full_run_2026-10-13/cpu_validation_receipt_fix_2026-10-13.json": "e5414ec4bf973ad726a26d2a218f0a701b130f3a40ed29251751ad3dd9f90da6",
+    "/home/lewis/rsi-research/results/scaled_random_2026-10-13_n2000/full_run_2026-10-13/protected_baseline_receipt_fix_2026-10-13.json": "c35cd7791be23a49a880c8cf64cf173f0edad62d5fddeb286097b98a49aee7b3",
+    "/home/lewis/rsi-research/results/scaled_random_2026-10-13_n2000/full_run_2026-10-13/evaluation_contract_2026-10-13.json": "abee5579eaa826db2e06e807baa2d2817439a05e70ba012f16bca709e828808d",
+    "/home/lewis/rsi-research/results/scaled_random_2026-10-13_n2000/src/analyzer_wrapper.py": "48fac5046582d97a30d6e1021cc35004992cf907162c79a721239a7dc9244a05",
+    "/home/lewis/rsi-research/results/scaled_random_2026-10-13_n2000/src/scorer_v2.py": "42f33dc9b6a36acf65a7ccd7693542b1edc155148271aa4a6c1d89b654116ccb",
+    "/home/lewis/rsi-research/results/scaled_random_2026-10-13_n2000/src/stages.py": "8428f1cd507b6944a87eaaba983b7597e9d5dbb9804ee467c60d1b1829d4e5bf",
+    "/home/lewis/rsi-research/results/scaled_random_2026-10-13_n2000/src/recovery_2026_10_13.py": "feff5e1884488057e5d25ada6a7c717c405c37d05e56b2d2a4a825de496daed3"
+  },
+  "all_CPU_checks_passed_before_receipts": true,
+  "GPU_started": false
+}

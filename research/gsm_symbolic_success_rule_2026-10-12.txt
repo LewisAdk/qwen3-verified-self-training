@@ -1,0 +1,13 @@
+Recorded 2026-10-12 (America/Chicago), before generating or inspecting expanded-development results.
+
+Primary endpoint: equally question-weighted pooled P1/P2 accuracy difference in percentage points, mean of the three existing LoRA adapters (2026, 2027, 2028) minus the base model, on instances 5–14 only. Templates, families, prompts, decoding and legacy scoring remain fixed.
+
+Prespecified nominal evidence of benefit: the lower endpoint of the paired original-family percentile bootstrap 95% interval for this primary difference is strictly greater than zero (10,000 replicates; bootstrap seed 2026). An interval containing zero is inconclusive, regardless of a positive point estimate. An upper endpoint below zero is evidence of harm under this criterion. P1, P2, individual adapters and combined instances 0–14 are secondary, and cannot replace the primary endpoint after inspection.
+
+Mandatory scoring sensitivity analysis: re-score all old and new GSM-Symbolic evaluation records with true Decimal numeric equality, count all changed verdicts for each model/variant, examine paired fix/regression classification changes, and recompute family-clustered intervals. Call a nominal benefit robust to formatting only if the numeric-scoring primary interval also has a strictly positive lower endpoint. Otherwise report the discrepancy explicitly.
+
+These are exploratory development findings, not confirmatory proof of RSI. The three fixed adapters do not establish population training-seed uncertainty. A lower confidence limit barely above zero will be described as borderline; no after-the-fact replacement threshold will be invented. Percentile intervals with 37 clusters may have imperfect coverage. Secondary intervals are not multiplicity adjusted.
+
+Report the primary interval width and half-width, under both scoring rules, as observed precision. They are planning inputs for the next difficulty-targeted experiment, not a formal minimum detectable effect. A formal power/MDE analysis additionally needs a chosen power level, test, and assumptions about the future experiment's family-level effect variance.
+
+Model snapshot precheck: exactly one cached snapshot found, ea980cb0a6c2ae4b936e82123acc929f1cec04c1. Saved seed-2026 training metadata includes no model commit. Historical identity is plausible, not conclusively documented; cache deletion/redownload history cannot be established from the listing alone.

@@ -1,0 +1,116 @@
+{
+  "independent_validation": "PASS",
+  "examples_per_group": 300,
+  "random_draws_attempted": 1000,
+  "easy_draws_attempted": 1000,
+  "training_performed": false,
+  "examples_removed": 0,
+  "review_counts": {
+    "sound": 15,
+    "substantive_error": 2,
+    "minor_wording_human_review": 2,
+    "substantive_error_borderline_bookkeeping": 1
+  },
+  "findings": [
+    {
+      "dataset_index": 1530,
+      "status": "sound",
+      "notes": "138 animals initially; half remain (69), then 37 goats gives 106; half male gives 53."
+    },
+    {
+      "dataset_index": 1074,
+      "status": "sound",
+      "notes": "20\u00d760/3=400 songs monthly; 400\u00d712\u00d70.50=2400 yearly. Units and all steps agree."
+    },
+    {
+      "dataset_index": 1221,
+      "status": "substantive_error",
+      "notes": "The outside is stated to take twice the house time, but the solution assigns it only the house time. Two siblings plus James means three workers, but the solution divides by two. These errors cancel under the reference\u2019s intended household-time interpretation: house 240, outside 480, total 720, divided by three = 240 minutes. The wording about two bathrooms versus singular \u201cthe bathroom\u201d is also ambiguous; reading 120 minutes per bathroom instead yields 6 hours. The model\u2019s two explicit errors remain invalid under either reading."
+    },
+    {
+      "dataset_index": 578,
+      "status": "sound",
+      "notes": "Monday 2, Tuesday 4, Friday 1, Thursday 4; intended remaining amount Wednesday is 20\u221211=9."
+    },
+    {
+      "dataset_index": 1071,
+      "status": "sound",
+      "notes": "Desired membership 2\u00d710+5=25, so additional members =25\u221210=15."
+    },
+    {
+      "dataset_index": 1522,
+      "status": "minor_wording_human_review",
+      "notes": "The computation 9\u00d7(4+20+10)=306 is sound, but \u201ceach plot produces ...34\u201d is false: plot totals are 36,180,90. The 34 is the combined yield of one plant of each type, not one plot. Treat as a unit-label/explanation defect, not a demonstrated arithmetic cancellation."
+    },
+    {
+      "dataset_index": 1399,
+      "status": "sound",
+      "notes": "Seven original boxes contain 70 cards; add five unboxed cards =75. The intermediate 70 is the boxed subtotal."
+    },
+    {
+      "dataset_index": 613,
+      "status": "substantive_error",
+      "notes": "70% cheaper means each visit costs 30% of 200 =60, not 140. Two visits cost 120; savings are 200\u2212120=80. The model instead spends 280 and reverses the subtraction (280\u2212200), incorrectly calling that savings. Two clear errors cancel numerically."
+    },
+    {
+      "dataset_index": 924,
+      "status": "sound",
+      "notes": "Two payments of 757 give total expenses 1514; rent/utilities subtotal1214; groceries300. The first \u201ctotal cost\u201d sentence should be read as the fixed-cost subtotal, which the later subtraction correctly uses."
+    },
+    {
+      "dataset_index": 901,
+      "status": "sound",
+      "notes": "After losing half there are15, then27; Thursday buys one-third of Tuesday\u2019s15 =5, giving32."
+    },
+    {
+      "dataset_index": 974,
+      "status": "sound",
+      "notes": "Each bank contains100\u00d7.01+50\u00d7.10=6 dollars; two banks give12."
+    },
+    {
+      "dataset_index": 900,
+      "status": "sound",
+      "notes": "Three hats6 hours, three scarves9, six mittens6, six socks9, three sweaters18; total48."
+    },
+    {
+      "dataset_index": 717,
+      "status": "sound",
+      "notes": "Two half-hour sessions plus one-fifth hour =1.2 hours =72 minutes."
+    },
+    {
+      "dataset_index": 1499,
+      "status": "sound",
+      "notes": "Under the standard365-day-year convention used by the reference:730 desired annual inches, minus430 =300 over100 days, so3 per day."
+    },
+    {
+      "dataset_index": 807,
+      "status": "substantive_error_borderline_bookkeeping",
+      "notes": "As written, \u201ctotal ...16 ounces during the day\u201d omits one of three8-ounce drinks, and \u201c72 ... at the end\u201d contradicts the given56. The new-container subtotal also omits dinner. Correct conservation is initial+64\u221224=56, so initial16. The model\u2019s final formula is algebraically repairable by reinterpreting16 as breakfast-plus-dinner and72 as a hypothetical restored quantity, but its stated intermediate quantities are false. Human review should judge severity; this is a flawed explanation, not proof of accidental arithmetic cancellation."
+    },
+    {
+      "dataset_index": 899,
+      "status": "sound",
+      "notes": "Together the two players score20%\u00d7300=60; equal shares30."
+    },
+    {
+      "dataset_index": 982,
+      "status": "sound",
+      "notes": "Feed cost48000, combined cost88000, revenue100\u00d71000\u00d72=200000; profit112000."
+    },
+    {
+      "dataset_index": 833,
+      "status": "sound",
+      "notes": "Lizard6, frog18, toad27; with gecko12 total63."
+    },
+    {
+      "dataset_index": 922,
+      "status": "sound",
+      "notes": "Betty50, pack cost100, twenty packs2000. Equation, interpretation and arithmetic agree."
+    },
+    {
+      "dataset_index": 879,
+      "status": "minor_wording_human_review",
+      "notes": "The arithmetic and class counts are correct:12 boys,13 girls,25 total,52% girls. \u201c11 boys +1 girl =12 boys\u201d is a wrong-word slip; the question adds a boy and the rest of the solution consistently uses that. Human decision needed on excluding minor explanation defects."
+    }
+  ]
+}

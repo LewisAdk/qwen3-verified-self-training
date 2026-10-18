@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-13",
+  "training_only_limit_seconds": 614.4,
+  "evaluation_adapter_wall_limit_seconds": 1560,
+  "training_excludes_loading_and_preflight": true,
+  "evaluation_includes_model_loading_excludes_shared_preflight": true,
+  "stop_on_oom_nonfinite_skip": true,
+  "immutable_trainer_sha256": "d8381ab86bb6020293121dc5dd32dac113901fbb8ddac8540fe4d777cea5a1b9",
+  "supervised_control_not_self_training": true
+}

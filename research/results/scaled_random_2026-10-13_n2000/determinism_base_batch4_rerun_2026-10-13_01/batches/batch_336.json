@@ -1,0 +1,85 @@
+{
+  "records": [
+    {
+      "variant": "p2",
+      "id": 38,
+      "instance": 11,
+      "original_id": 799,
+      "question": "A loaf of bread at the bakery costs \u20ba15. The cost of a bagel is 1/4 of a loaf of bread. The bakery has a promotion that if one buys 4 bagels or more, they get a 10% discount on bagels. How much more do 4 loaves of bread cost than 8 bagels?",
+      "gold": "33",
+      "model": "base_batch4",
+      "response": " The cost of a bagel is 1/4 * 15 = \u20ba3.50.\nThe cost of 4 bagels is 4 * 3.50 = \u20ba14.\nThe cost of 8 bagels is 8 * 3.50 = \u20ba28.\nThe cost of 4 loaves of bread is 4 * 15 = \u20ba60.\nThe difference in cost is 60 - 28 = \u20ba32.\n#### 32\n\n",
+      "tokens": 117,
+      "prediction": "32",
+      "correct": false,
+      "secondary_v2": {
+        "prediction": "32",
+        "continuation": false,
+        "presentation": false,
+        "reason": null,
+        "correct": false
+      }
+    },
+    {
+      "variant": "p2",
+      "id": 38,
+      "instance": 12,
+      "original_id": 799,
+      "question": "A loaf of bread at the bakery costs \u20ac5. The cost of a bagel is one-fourth of a loaf of bread. The bakery has a promotion that if one buys 7 bagels or more, they get a 20% discount on bagels. How much more do 4 loaves of bread cost than 8 bagels?",
+      "gold": "12",
+      "model": "base_batch4",
+      "response": " The cost of a bagel is \u20ac5/4 = \u20ac1.25.\nThe cost of 8 bagels is \u20ac1.25 * 8 = \u20ac10.\nWith the promotion, the cost of 8 bagels is \u20ac10 * 0.8 = \u20ac8.\nThe cost of 4 loaves of bread is \u20ac5 * 4 = \u20ac20.\nTherefore, 4 loaves of bread cost \u20ac20 - \u20ac8 = \u20ac12 more than 8 bagels.\n#### 12\n\n",
+      "tokens": 114,
+      "prediction": "12",
+      "correct": true,
+      "secondary_v2": {
+        "prediction": "12",
+        "continuation": false,
+        "presentation": false,
+        "reason": null,
+        "correct": true
+      }
+    },
+    {
+      "variant": "p2",
+      "id": 38,
+      "instance": 13,
+      "original_id": 799,
+      "question": "A loaf of sourdough at the market costs \u00a510. The cost of a biscuit is 1/8 of a loaf of sourdough. The market has a promotion that if one buys 3 biscuits or more, they get a 20% discount on biscuits. How much more do 9 loaves of sourdough cost than 12 biscuits?",
+      "gold": "78",
+      "model": "base_batch4",
+      "response": " The cost of a biscuit is 1/8 * \u00a510 = \u00a51.25.\nThe cost of 9 loaves of sourdough is 9 * \u00a510 = \u00a590.\nThe cost of 12 biscuits is 12 * \u00a51.25 = \u00a515.\nWith the promotion, the cost of 12 biscuits is 12 * \u00a51.25 * 0.8 = \u00a512.\nThe difference in cost is \u00a590 - \u00a512 = \u00a578.\n#### 78\n\n",
+      "tokens": 120,
+      "prediction": "78",
+      "correct": true,
+      "secondary_v2": {
+        "prediction": "78",
+        "continuation": false,
+        "presentation": false,
+        "reason": null,
+        "correct": true
+      }
+    },
+    {
+      "variant": "p2",
+      "id": 38,
+      "instance": 14,
+      "original_id": 799,
+      "question": "A loaf of sourdough at the market costs \u20ba10. The cost of a biscuit is 1/8 of a loaf of sourdough. The market has a promotion that if one buys 5 biscuits or more, they get a 20% discount on biscuits. How much more do 12 loaves of sourdough cost than 8 biscuits?",
+      "gold": "112",
+      "model": "base_batch4",
+      "response": " The cost of a biscuit is 1/8 * 10 = \u20ba1.25.\nThe cost of 8 biscuits is 8 * 1.25 = \u20ba10.\nThe cost of 12 loaves of sourdough is 12 * 10 = \u20ba120.\nThe cost of 12 loaves of sourdough with the promotion is 120 * 0.8 = \u20ba96.\nThe difference in cost is 96 - 10 = \u20ba86.\n#### 86\n\n",
+      "tokens": 130,
+      "prediction": "86",
+      "correct": false,
+      "secondary_v2": {
+        "prediction": "86",
+        "continuation": false,
+        "presentation": false,
+        "reason": null,
+        "correct": false
+      }
+    }
+  ],
+  "elapsed_seconds": 8.223051271000031
+}

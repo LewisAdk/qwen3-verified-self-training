@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-13",
+  "training_only_limit_seconds": 614.4,
+  "evaluation_adapter_wall_limit_seconds": 1560,
+  "training_excludes_loading_and_preflight": true,
+  "evaluation_includes_model_loading_excludes_shared_preflight": true,
+  "stop_on_oom_nonfinite_skip": true,
+  "immutable_trainer_sha256": "d8381ab86bb6020293121dc5dd32dac113901fbb8ddac8540fe4d777cea5a1b9",
+  "supervised_control_not_self_training": true,
+  "gold_entrypoint_sha256": "e4087c1914ee9a8317f5bb48096eabd635467fbcf9b846703495091a97c8febd",
+  "evaluation_source_sha256": "47c56ac69c3e312efc0dc93d081ec2ee495d12d0aaa28cde0f67ffd196fedc76",
+  "analysis_source_sha256": "5759ee7222b028c22a6a1525eeb38ddfcd4aedea65ac4b899dd15b53197f032b",
+  "supervisor_sha256": "60070c26a6d5a33f7b9db7ba4717de888f8dd6282739fff38ae96249b46278c8"
+}

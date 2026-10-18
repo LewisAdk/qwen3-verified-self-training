@@ -1,0 +1,14 @@
+{
+  "stage": "analyze",
+  "seed": null,
+  "supervisor_pid": 386,
+  "system": {
+    "wall_epoch": 1791945174.1560173,
+    "utc": "2026-10-14T02:32:54.156018+00:00",
+    "monotonic_seconds": 8135.948863246,
+    "boottime_seconds": 8135.948863653,
+    "uptime_seconds": 8135.94,
+    "boot_id": "ff414fec-7838-4541-8029-5e71e3b75a4d"
+  },
+  "budget_seconds": 600
+}

@@ -1,0 +1,13 @@
+{
+  "sampled_peak_device_wide_gib": 7.736328125,
+  "total_device_gib": 8.0,
+  "samples": 1828,
+  "query_errors": 0,
+  "sampling_interval_seconds": 1,
+  "brief_peaks_may_be_missed": true,
+  "device_wide_not_process_specific": true,
+  "clock_event_samples": 0,
+  "windows_clock_samples": 184,
+  "windows_clock_errors": 0,
+  "clock_fields": "WSL UTC/wall, monotonic, CLOCK_BOOTTIME, uptime, boot_id; Windows UTC/Stopwatch/tick counter about every 10 seconds"
+}

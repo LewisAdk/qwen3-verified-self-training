@@ -1,0 +1,14 @@
+{
+  "stage": "train",
+  "seed": 2027,
+  "supervisor_pid": 386,
+  "system": {
+    "wall_epoch": 1791938957.2812018,
+    "utc": "2026-10-14T00:49:17.281202+00:00",
+    "monotonic_seconds": 1888.180218111,
+    "boottime_seconds": 1888.180218411,
+    "uptime_seconds": 1888.18,
+    "boot_id": "ff414fec-7838-4541-8029-5e71e3b75a4d"
+  },
+  "budget_seconds": 4200
+}

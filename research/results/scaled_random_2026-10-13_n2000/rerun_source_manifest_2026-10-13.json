@@ -1,0 +1,12 @@
+{
+  "sources": {
+    "/home/lewis/rsi-research/results/scaled_random_2026-10-13_n2000/src/recovery_2026_10_13.py": "feff5e1884488057e5d25ada6a7c717c405c37d05e56b2d2a4a825de496daed3",
+    "/home/lewis/rsi-research/results/scaled_random_2026-10-13_n2000/src/job_supervisor_2026_10_13.py": "95226da49397401ddefca89e4e8d465c08722f97eb1b54b3f06e73f73390cf93",
+    "/home/lewis/rsi-research/results/scaled_random_2026-10-13_n2000/src/job_supervisor_v2_2026_10_13.py": "9c428b0af39b60176f098cb946e3d5a8524d7c4ce35941e2fe88eb45afa094ec"
+  },
+  "new_rerun_path": "/home/lewis/rsi-research/results/scaled_random_2026-10-13_n2000/determinism_base_batch4_rerun_2026-10-13_01",
+  "partial_run_untouched": true,
+  "approved_budget_seconds": 1800,
+  "cause_of_original_interruption": "unconfirmed",
+  "full_training_authorized": false
+}

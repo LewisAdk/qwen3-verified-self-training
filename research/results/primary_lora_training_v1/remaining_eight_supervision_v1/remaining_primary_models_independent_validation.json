@@ -1,0 +1,94 @@
+{
+  "status": "passed",
+  "models": [
+    {
+      "name": "hard_seed_2027",
+      "passed": true,
+      "adapter_tensors": 112,
+      "updates": 150,
+      "examples": 300,
+      "frozen_inputs_checked": true,
+      "two_epochs_verified": true,
+      "training_seconds_verified": true
+    },
+    {
+      "name": "hard_seed_2028",
+      "passed": true,
+      "adapter_tensors": 112,
+      "updates": 150,
+      "examples": 300,
+      "frozen_inputs_checked": true,
+      "two_epochs_verified": true,
+      "training_seconds_verified": true
+    },
+    {
+      "name": "random_seed_2026",
+      "passed": true,
+      "adapter_tensors": 112,
+      "updates": 178,
+      "examples": 353,
+      "frozen_inputs_checked": true,
+      "two_epochs_verified": true,
+      "training_seconds_verified": true
+    },
+    {
+      "name": "random_seed_2027",
+      "passed": true,
+      "adapter_tensors": 112,
+      "updates": 178,
+      "examples": 353,
+      "frozen_inputs_checked": true,
+      "two_epochs_verified": true,
+      "training_seconds_verified": true
+    },
+    {
+      "name": "random_seed_2028",
+      "passed": true,
+      "adapter_tensors": 112,
+      "updates": 178,
+      "examples": 353,
+      "frozen_inputs_checked": true,
+      "two_epochs_verified": true,
+      "training_seconds_verified": true
+    },
+    {
+      "name": "easy_seed_2026",
+      "passed": true,
+      "adapter_tensors": 112,
+      "updates": 202,
+      "examples": 403,
+      "frozen_inputs_checked": true,
+      "two_epochs_verified": true,
+      "training_seconds_verified": true
+    },
+    {
+      "name": "easy_seed_2027",
+      "passed": true,
+      "adapter_tensors": 112,
+      "updates": 202,
+      "examples": 403,
+      "frozen_inputs_checked": true,
+      "two_epochs_verified": true,
+      "training_seconds_verified": true
+    },
+    {
+      "name": "easy_seed_2028",
+      "passed": true,
+      "adapter_tensors": 112,
+      "updates": 202,
+      "examples": 403,
+      "frozen_inputs_checked": true,
+      "two_epochs_verified": true,
+      "training_seconds_verified": true
+    }
+  ],
+  "protected_input_file_count": 705,
+  "trainer_source_sha256": "d8381ab86bb6020293121dc5dd32dac113901fbb8ddac8540fe4d777cea5a1b9",
+  "all_final_adapter_tensors_finite": true,
+  "logger_total_samples": 61,
+  "logger_valid_samples": 61,
+  "logger_min_interval_seconds": 4.9774205509999945,
+  "logger_max_interval_seconds": 5.0211606839999945,
+  "evaluation_run": false,
+  "gpu_used_for_validation": false
+}

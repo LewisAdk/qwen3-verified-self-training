@@ -1,0 +1,9 @@
+{
+  "stage": "freeze_set",
+  "supervisor_pid": 389,
+  "utc": "2026-10-13T23:41:42.259801+00:00",
+  "wall_epoch": 1791934902.2218485,
+  "monotonic": 19.030284322,
+  "budget_seconds": 600,
+  "full_training_authorized": false
+}

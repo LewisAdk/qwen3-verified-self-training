@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "examples": 300,
+  "exact_hard_problem_ids_and_order_verified": true,
+  "every_solution_matches_minimally_cleaned_pinned_reference": true,
+  "all_gold_answers_numerically_verified": true,
+  "all_300_examples_independently_retokenized": true,
+  "supervised_tokens_per_epoch": 32206,
+  "maximum_full_sequence_tokens": 847,
+  "protected_existing_files_checked": 1577,
+  "unchanged_training_settings_verified": true,
+  "training_performed": false,
+  "evaluation_performed": false,
+  "gpu_used": false,
+  "development_families": 37,
+  "reserved_families_untouched": 63,
+  "plan_sha256": "16a7bc5c678e44f17fc1a0128660cccf92eb86f9f7aa8b85c4b9982bbb585d67"
+}

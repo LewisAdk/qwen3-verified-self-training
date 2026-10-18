@@ -1,0 +1,9 @@
+{
+  "stage": "labeling",
+  "exit_code": 0,
+  "timed_out": false,
+  "utc": "2026-10-13T23:34:23.711846+00:00",
+  "wall_elapsed_seconds": 11691.658029794693,
+  "monotonic_elapsed_seconds": 12402.989780639,
+  "full_training_started": false
+}

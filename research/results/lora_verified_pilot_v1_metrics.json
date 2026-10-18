@@ -1,0 +1,25 @@
+{
+  "model": "Qwen/Qwen3-1.7B-Base",
+  "seed": 2026,
+  "training_examples": 43,
+  "epochs": 2,
+  "learning_rate": 0.0001,
+  "gradient_accumulation": 4,
+  "max_sequence_length": 1024,
+  "lora_rank": 4,
+  "lora_alpha": 8,
+  "target_modules": [
+    "q_proj",
+    "v_proj"
+  ],
+  "optimizer_updates": 22,
+  "epoch_mean_losses": [
+    0.40148283645164135,
+    0.2849806204091671
+  ],
+  "elapsed_minutes": 0.64,
+  "peak_pytorch_vram_gb": 7.76,
+  "source_sha256": "7063cf3bc87d974b862d6843ce5f874bf15f46c146e5702be5f0fe87545d8e68",
+  "script_sha256": "5678fd6e423e9c75c528813bec0ef37ae36954fe0d739e0401a41cfcddf17245",
+  "adapter_path": "lora_verified_pilot_v1"
+}

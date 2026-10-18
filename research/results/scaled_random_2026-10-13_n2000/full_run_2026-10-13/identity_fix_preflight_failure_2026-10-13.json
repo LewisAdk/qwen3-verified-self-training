@@ -1,0 +1,32 @@
+{
+  "stage": "complete_CPU_preflight",
+  "status": "stopped_on_different_failure",
+  "exception_type": "FileNotFoundError",
+  "missing_path": "/home/lewis/rsi-research/results/scaled_random_2026-10-13_n2000/full_run_2026-10-13/source_manifest_2026-10-13.json",
+  "identity_fix_passed": true,
+  "other_code_changed": false,
+  "failed_original_test_preserved": true,
+  "new_test_sha256": "757409242aa32d9bb68ebbc168a87117b03d4b510c49c4091eb1587b7a27eb52",
+  "original_test_sha256": "9d205597367ffdc7ebb5dbfca81a01b6b0b328b642ff12204d1107dd3d41b465",
+  "passed_CPU_receipt_exists": false,
+  "source_manifest_exists": false,
+  "diagnosis": "Training context tries to hash full-stage source manifest and passed CPU-validation receipt before the complete CPU test has produced its pass receipt.",
+  "full_training_started": false,
+  "GPU_started": false,
+  "new_accuracy_inspected": false,
+  "no_retry": true,
+  "no_settings_changed": true,
+  "protected": {
+    "verified": 3675,
+    "mismatches": [],
+    "utc": "2026-10-14T00:15:19.810695+00:00"
+  },
+  "system": {
+    "wall_epoch": 1791936919.8159902,
+    "utc": "2026-10-14T00:15:19.815992+00:00",
+    "monotonic_seconds": 15.397517752,
+    "boottime_seconds": 15.397518351,
+    "uptime_seconds": 15.39,
+    "boot_id": "a606759e-ff37-43ee-b665-5f5a1c47c239"
+  }
+}

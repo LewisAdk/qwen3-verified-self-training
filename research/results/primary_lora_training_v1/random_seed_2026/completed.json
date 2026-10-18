@@ -1,0 +1,61 @@
+{
+  "status": "completed_two_epochs",
+  "phase": "train",
+  "group": "random",
+  "seed": 2026,
+  "source_sha256": "d8381ab86bb6020293121dc5dd32dac113901fbb8ddac8540fe4d777cea5a1b9",
+  "training_fingerprint": "1db834a0d0664c061b6032eb66af8c72f80826a36f7a38a050bc3c24b75f081b",
+  "example_count": 353,
+  "example_exposures": 706,
+  "maximum_sequence_length": 849,
+  "epoch_mean_losses": [
+    0.20833544903790985,
+    0.1419445280112305
+  ],
+  "mean_loss": 0.17513998852457016,
+  "attempted_optimizer_updates": 178,
+  "successful_optimizer_updates": 178,
+  "skipped_optimizer_updates": 0,
+  "skipped_steps": [],
+  "supervised_tokens_seen": 65238,
+  "supervised_tokens_in_successful_updates": 65238,
+  "initial_free_gpu_gib": 6.9365234375,
+  "total_gpu_gib": 7.99969482421875,
+  "peak_reserved_gpu_gib": 15.44921875,
+  "peak_allocated_gpu_gib": 5.013178825378418,
+  "elapsed_training_minutes": 7.138381902983334,
+  "gpu": "NVIDIA GeForce RTX 2080 SUPER",
+  "settings": {
+    "epochs": 2,
+    "learning_rate": 0.0001,
+    "microbatch": 1,
+    "gradient_accumulation": 4,
+    "max_sequence_length": 1024,
+    "lora_rank": 4,
+    "lora_alpha": 8,
+    "lora_dropout": 0.0,
+    "target_modules": [
+      "q_proj",
+      "v_proj"
+    ],
+    "bias": "none",
+    "dtype": "float16",
+    "optimizer": "AdamW",
+    "weight_decay": 0.0,
+    "gradient_clip_norm": 1.0,
+    "learning_rate_schedule": "constant; no scheduler",
+    "gradient_checkpointing": true,
+    "use_reentrant": false,
+    "prompt_loss_mask": -100,
+    "gradient_scaling": "torch.amp.GradScaler cuda defaults; automatic overflow scaling",
+    "checkpoint_selection": "final after exactly two epochs only"
+  },
+  "all_protected_hashes_match": true,
+  "final_adapter_saved": true,
+  "probe_selected_indices": null,
+  "adapter_files_sha256": {
+    "adapter_model.safetensors": "02613cfec205c8e50a0faee56b4e8e5576b722b466c755a7067a6839b741acb8",
+    "README.md": "a25388a7e123dbc58e461c52ab143d7d618bae646400f8b3e5dd284404bfbd41",
+    "adapter_config.json": "0e64449988ea14260b4bcaf081ea32ac45798c396ed99a26a222671662b0a562"
+  }
+}

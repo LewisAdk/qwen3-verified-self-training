@@ -1,0 +1,52 @@
+{
+  "examples": 2000,
+  "prefix": "Solve the math problems step by step. Finish each solution with #### followed by the numeric answer.\n\nQuestion: Mitch has saved $20000 to finance his boating hobby. A new boat costs $1500 per foot in length. If Mitch needs to keep $500 for a license and registration, and three times that amount for docking fees, how many feet is the longest boat he can buy?\nSolution: Mitch needs to keep 500 * 3 = 1500 for docking fees.\nThus, he needs to keep 500 + 3 * 500 = $2000 for license, registration, and docking fees.\nHe has 20000 - 2000 = $18000 left to spend on a boat.\nTherefore, the longest boat he can buy is 18000 / 1500 = 12 feet long.\n#### 12\n\nQuestion: Stephen rides his bicycle to church.  During the first third of his trip, he travels at a speed of 16 miles per hour. During the second third of his trip, riding uphill, he travels a speed of 12 miles per hour.  During the last third of his trip, he rides downhill at a speed of 20 miles per hour.  If each third of his trip takes 15 minutes, what is the distance Stephen rides his bicycle to church, in miles?\nSolution: 15 minutes is 15/60=0.25 hours.\nTraveling 15 minutes at 16 miles per hour, Stephen travels 16*0.25 = 4 miles.\nTraveling 15 minutes at 12 miles per hour, Stephen travels 12*0.25 = 3 miles.\nTraveling 15 minutes at 20 miles per hour, Stephen travels 20*0.25 = 5 miles.\nAll together, Stephen travels 4+3+5=12 miles.\n#### 12\n\n",
+  "source_sha256": "8428f1cd507b6944a87eaaba983b7597e9d5dbb9804ee467c60d1b1829d4e5bf",
+  "set_sha256": "ca030c17dc2fe1d193a908099bf12cc66929f3ec461170aef44998578085de62",
+  "selection_rng": "first 64 SHA256 bits of rsi-scaled-random-v1:2026:sample:2000",
+  "candidate_rng": "first 64 SHA256 bits of rsi-scaled-random-v1:2026:solution:<index>",
+  "difficulty_mix": {
+    "1": 168,
+    "2": 258,
+    "3": 388,
+    "4": 1186
+  },
+  "statistics": {
+    "prompt_tokens": {
+      "min": 452,
+      "max": 617,
+      "mean": 498.342,
+      "median": 495.0,
+      "total": 996684
+    },
+    "solution_tokens": {
+      "min": 22,
+      "max": 324,
+      "mean": 91.286,
+      "median": 82.0,
+      "total": 182572
+    },
+    "supervised_tokens": {
+      "min": 23,
+      "max": 325,
+      "mean": 92.286,
+      "median": 83.0,
+      "total": 184572
+    },
+    "full_sequence_tokens": {
+      "min": 494,
+      "max": 868,
+      "mean": 590.628,
+      "median": 580.0,
+      "total": 1181256
+    }
+  },
+  "overlength_indices": [],
+  "train_seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "expected_updates_per_seed": 1000,
+  "full_training_authorized": false
+}

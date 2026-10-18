@@ -1,0 +1,11 @@
+{
+  "sources": {
+    "/home/lewis/rsi-research/results/scaled_random_2026-10-13_n2000/src/analyzer_wrapper.py": "48fac5046582d97a30d6e1021cc35004992cf907162c79a721239a7dc9244a05",
+    "/home/lewis/rsi-research/results/scaled_random_2026-10-13_n2000/src/cpu_tests.py": "94422f7d46ea990e918d8cb2186cb2911c85b99daaa0a30093e5a7d250fddbe2",
+    "/home/lewis/rsi-research/results/scaled_random_2026-10-13_n2000/src/cpu_tests_v2.py": "e0d772336188d708b2a55129be7bde0e2fd2086c0bb0b7847f9237346742b5d3",
+    "/home/lewis/rsi-research/results/scaled_random_2026-10-13_n2000/src/scorer_v2.py": "42f33dc9b6a36acf65a7ccd7693542b1edc155148271aa4a6c1d89b654116ccb",
+    "/home/lewis/rsi-research/results/scaled_random_2026-10-13_n2000/src/stages.py": "8428f1cd507b6944a87eaaba983b7597e9d5dbb9804ee467c60d1b1829d4e5bf"
+  },
+  "spec_sha256": "64bc6b2d09c0010dea6c45bb4e831174ffe1abdc070fa53410295b6f73e49e65",
+  "cpu_validation_sha256": "5bf5efecac5560536c3dd91fd91a70dd3d2b9ae16b7768c5f1efbefb7e86e654"
+}

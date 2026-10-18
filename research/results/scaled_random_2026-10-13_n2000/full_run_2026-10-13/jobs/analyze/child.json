@@ -1,0 +1,10 @@
+{
+  "pid": 20085,
+  "command": [
+    "/home/lewis/rsi-research/.venv/bin/python",
+    "-B",
+    "-u",
+    "/home/lewis/rsi-research/results/scaled_random_2026-10-13_n2000/full_run_2026-10-13/src/runner_receipt_fix_2026_10_13.py",
+    "analyze"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "status": "stopped_before_GPU",
+  "failed_assertion": "training_execute_bytecode_identity",
+  "no_retry": true,
+  "no_settings_changed": true,
+  "system": {
+    "wall_epoch": 1791936500.6399822,
+    "utc": "2026-10-14T00:08:20.639983+00:00",
+    "monotonic_seconds": 108.616710787,
+    "boottime_seconds": 108.616711483,
+    "uptime_seconds": 108.61,
+    "boot_id": "fcefcf86-71ee-40e3-98fb-80d560ec5386"
+  }
+}

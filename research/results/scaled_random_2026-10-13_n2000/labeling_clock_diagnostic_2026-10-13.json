@@ -1,0 +1,1653 @@
+{
+  "flag_counts": {
+    "wall_clock_jump": 136,
+    "suspend_gap": 0,
+    "sample_gap": 0,
+    "boot_id_changed": 0
+  },
+  "samples": 11479,
+  "device_query_errors": 0,
+  "windows_clock_errors": 0,
+  "windows_samples": 1150,
+  "wall_elapsed_seconds": 11691.658029794693,
+  "budget_monotonic_elapsed_seconds": 12402.989780639,
+  "budget_used_minutes": 206.71649634398332,
+  "budget_minutes": 300,
+  "peak_device_wide_gib": 6.6376953125,
+  "events": [
+    {
+      "utc": "2026-10-13T20:51:42.053394+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.3156695365905762,
+        "monotonic_delta_seconds": 1.0321619410001404,
+        "boottime_delta_seconds": 1.0321624409998549,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T21:06:13.091112+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.3076286315917969,
+        "monotonic_delta_seconds": 1.0479829400001108,
+        "boottime_delta_seconds": 1.0479832360006185,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T21:12:04.169354+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.3403282165527344,
+        "monotonic_delta_seconds": 1.0360231929998918,
+        "boottime_delta_seconds": 1.0360234929994476,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T21:21:57.390115+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.4867866039276123,
+        "monotonic_delta_seconds": 1.0419606059995203,
+        "boottime_delta_seconds": 1.0419605019997107,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T21:26:00.629839+00:00",
+      "flags": {
+        "wall_delta_seconds": -0.9739267826080322,
+        "monotonic_delta_seconds": 1.0433200020006552,
+        "boottime_delta_seconds": 1.0433200349998515,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T21:26:45.582730+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.3321025371551514,
+        "monotonic_delta_seconds": 1.0331741419995524,
+        "boottime_delta_seconds": 1.033173978999912,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T21:44:34.596728+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.4043550491333008,
+        "monotonic_delta_seconds": 1.04462113199952,
+        "boottime_delta_seconds": 1.0446214980001969,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T21:56:04.230318+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.3206520080566406,
+        "monotonic_delta_seconds": 1.054457401000036,
+        "boottime_delta_seconds": 1.0544576089996553,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T21:57:20.430383+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.3920960426330566,
+        "monotonic_delta_seconds": 1.0413619210003162,
+        "boottime_delta_seconds": 1.0413618130005489,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:15:06.358401+00:00",
+      "flags": {
+        "wall_delta_seconds": -0.986985445022583,
+        "monotonic_delta_seconds": 1.0353198869997868,
+        "boottime_delta_seconds": 1.0353204189996177,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:15:36.661220+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.010638952255249,
+        "monotonic_delta_seconds": 1.0400350840009196,
+        "boottime_delta_seconds": 1.0400350840009196,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:17:07.825333+00:00",
+      "flags": {
+        "wall_delta_seconds": -0.9992630481719971,
+        "monotonic_delta_seconds": 1.0430007680006383,
+        "boottime_delta_seconds": 1.0430008759994962,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:18:07.918767+00:00",
+      "flags": {
+        "wall_delta_seconds": -0.9751100540161133,
+        "monotonic_delta_seconds": 1.0396200490013143,
+        "boottime_delta_seconds": 1.0396200490013143,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:19:38.768644+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.068451166152954,
+        "monotonic_delta_seconds": 1.0343580720000318,
+        "boottime_delta_seconds": 1.0343584100010048,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:20:40.010767+00:00",
+      "flags": {
+        "wall_delta_seconds": -0.9670932292938232,
+        "monotonic_delta_seconds": 1.03864206399885,
+        "boottime_delta_seconds": 1.0386412549996749,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:21:40.101096+00:00",
+      "flags": {
+        "wall_delta_seconds": -0.9837758541107178,
+        "monotonic_delta_seconds": 1.0351946929986298,
+        "boottime_delta_seconds": 1.0351946930004488,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:22:10.324166+00:00",
+      "flags": {
+        "wall_delta_seconds": -0.9515237808227539,
+        "monotonic_delta_seconds": 1.054857777999132,
+        "boottime_delta_seconds": 1.054858283001522,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:24:41.561204+00:00",
+      "flags": {
+        "wall_delta_seconds": -0.9454710483551025,
+        "monotonic_delta_seconds": 1.0600659219999216,
+        "boottime_delta_seconds": 1.060065373998441,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:25:12.091542+00:00",
+      "flags": {
+        "wall_delta_seconds": -0.9957704544067383,
+        "monotonic_delta_seconds": 1.0393733939999947,
+        "boottime_delta_seconds": 1.0393735950001428,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:25:42.408412+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.0932140350341797,
+        "monotonic_delta_seconds": 1.033005953000611,
+        "boottime_delta_seconds": 1.0330058509989613,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:26:42.530154+00:00",
+      "flags": {
+        "wall_delta_seconds": -0.9465794563293457,
+        "monotonic_delta_seconds": 1.0614668260004692,
+        "boottime_delta_seconds": 1.0614666060009768,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:27:13.117699+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.0627150535583496,
+        "monotonic_delta_seconds": 1.0442235539994726,
+        "boottime_delta_seconds": 1.0442232509994938,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:28:57.663750+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.8470938205718994,
+        "monotonic_delta_seconds": 1.0622934210005042,
+        "boottime_delta_seconds": 1.0622937380012445,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:29:27.931368+00:00",
+      "flags": {
+        "wall_delta_seconds": -0.9993200302124023,
+        "monotonic_delta_seconds": 1.0356277199989563,
+        "boottime_delta_seconds": 1.035627650000606,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:29:58.406404+00:00",
+      "flags": {
+        "wall_delta_seconds": -0.9656143188476562,
+        "monotonic_delta_seconds": 1.03646504399876,
+        "boottime_delta_seconds": 1.0364653870001348,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:30:28.549877+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.0823314189910889,
+        "monotonic_delta_seconds": 1.0379175520010904,
+        "boottime_delta_seconds": 1.0379172270004347,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:31:13.198580+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.8048336505889893,
+        "monotonic_delta_seconds": 1.0408644529998128,
+        "boottime_delta_seconds": 1.0408646630003204,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:32:13.283294+00:00",
+      "flags": {
+        "wall_delta_seconds": -0.8412206172943115,
+        "monotonic_delta_seconds": 1.3438351469994814,
+        "boottime_delta_seconds": 1.343835247998868,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:33:14.083991+00:00",
+      "flags": {
+        "wall_delta_seconds": -0.6578502655029297,
+        "monotonic_delta_seconds": 1.3835353849990497,
+        "boottime_delta_seconds": 1.3835349469991343,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:33:44.653603+00:00",
+      "flags": {
+        "wall_delta_seconds": -0.6802105903625488,
+        "monotonic_delta_seconds": 1.3566097590010031,
+        "boottime_delta_seconds": 1.3566095559999667,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:34:15.367124+00:00",
+      "flags": {
+        "wall_delta_seconds": -0.5271096229553223,
+        "monotonic_delta_seconds": 1.478523365000001,
+        "boottime_delta_seconds": 1.4785231459991337,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:34:45.871782+00:00",
+      "flags": {
+        "wall_delta_seconds": -0.7087397575378418,
+        "monotonic_delta_seconds": 1.3751860610009317,
+        "boottime_delta_seconds": 1.375185845001397,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:35:14.829734+00:00",
+      "flags": {
+        "wall_delta_seconds": -0.9912233352661133,
+        "monotonic_delta_seconds": 1.0402658290004183,
+        "boottime_delta_seconds": 1.040265759000249,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:35:45.023173+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.0755176544189453,
+        "monotonic_delta_seconds": 1.0440291719987727,
+        "boottime_delta_seconds": 1.0440296060005494,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:36:15.208795+00:00",
+      "flags": {
+        "wall_delta_seconds": -0.9987285137176514,
+        "monotonic_delta_seconds": 1.038000753000233,
+        "boottime_delta_seconds": 1.0380015009995986,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:36:59.922058+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.7696943283081055,
+        "monotonic_delta_seconds": 1.0403414909997082,
+        "boottime_delta_seconds": 1.0403411700008292,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:37:30.210858+00:00",
+      "flags": {
+        "wall_delta_seconds": -0.9632537364959717,
+        "monotonic_delta_seconds": 1.0432988600005046,
+        "boottime_delta_seconds": 1.0432989670007373,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:38:00.686713+00:00",
+      "flags": {
+        "wall_delta_seconds": -0.9863581657409668,
+        "monotonic_delta_seconds": 1.041059190998567,
+        "boottime_delta_seconds": 1.04105949499899,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:39:31.020250+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.1449952125549316,
+        "monotonic_delta_seconds": 1.0430878629995277,
+        "boottime_delta_seconds": 1.043087972999274,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:40:31.752463+00:00",
+      "flags": {
+        "wall_delta_seconds": -0.9944427013397217,
+        "monotonic_delta_seconds": 1.034730364999632,
+        "boottime_delta_seconds": 1.034730060999209,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:42:02.850055+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.0434370040893555,
+        "monotonic_delta_seconds": 1.0331013369996072,
+        "boottime_delta_seconds": 1.0331016589989304,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:42:33.107441+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.0261034965515137,
+        "monotonic_delta_seconds": 1.039329679999355,
+        "boottime_delta_seconds": 1.0393297859991435,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:43:02.917558+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.0237205028533936,
+        "monotonic_delta_seconds": 1.0409129350009607,
+        "boottime_delta_seconds": 1.040913136999734,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:43:33.285112+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.1135165691375732,
+        "monotonic_delta_seconds": 1.0329129649999231,
+        "boottime_delta_seconds": 1.0329131799990137,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:44:03.653940+00:00",
+      "flags": {
+        "wall_delta_seconds": -0.9788751602172852,
+        "monotonic_delta_seconds": 1.0893452149994118,
+        "boottime_delta_seconds": 1.0893454330016539,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:44:34.101414+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.043252944946289,
+        "monotonic_delta_seconds": 1.0343789369999286,
+        "boottime_delta_seconds": 1.0343789369999286,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:45:03.617637+00:00",
+      "flags": {
+        "wall_delta_seconds": -0.9997575283050537,
+        "monotonic_delta_seconds": 1.049340156998369,
+        "boottime_delta_seconds": 1.049340157000188,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:45:34.308106+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.005904197692871,
+        "monotonic_delta_seconds": 1.0495629209999606,
+        "boottime_delta_seconds": 1.0495630300010816,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:46:04.638722+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.049699068069458,
+        "monotonic_delta_seconds": 1.0364736700012145,
+        "boottime_delta_seconds": 1.0364730630008125,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:47:04.527423+00:00",
+      "flags": {
+        "wall_delta_seconds": -0.7125735282897949,
+        "monotonic_delta_seconds": 1.384682868998425,
+        "boottime_delta_seconds": 1.3846830619986576,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:47:34.805585+00:00",
+      "flags": {
+        "wall_delta_seconds": -0.8379108905792236,
+        "monotonic_delta_seconds": 1.3829249469999922,
+        "boottime_delta_seconds": 1.3829242900010286,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:48:05.464004+00:00",
+      "flags": {
+        "wall_delta_seconds": -0.5473477840423584,
+        "monotonic_delta_seconds": 1.4693929219993151,
+        "boottime_delta_seconds": 1.469393138999294,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:48:35.751295+00:00",
+      "flags": {
+        "wall_delta_seconds": -0.863713264465332,
+        "monotonic_delta_seconds": 1.3580989980000595,
+        "boottime_delta_seconds": 1.3580987959994673,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:49:04.777636+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.1254394054412842,
+        "monotonic_delta_seconds": 1.0413111689995276,
+        "boottime_delta_seconds": 1.041311384000437,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:49:35.135402+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.0304088592529297,
+        "monotonic_delta_seconds": 1.0422860539983958,
+        "boottime_delta_seconds": 1.0422856489985861,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:50:05.533987+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.0116345882415771,
+        "monotonic_delta_seconds": 1.0368672350014094,
+        "boottime_delta_seconds": 1.0368671260002884,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:50:35.822300+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.039534568786621,
+        "monotonic_delta_seconds": 1.0520275700000639,
+        "boottime_delta_seconds": 1.05202767999981,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:51:20.633114+00:00",
+      "flags": {
+        "wall_delta_seconds": -2.0380947589874268,
+        "monotonic_delta_seconds": 1.0610905370012915,
+        "boottime_delta_seconds": 1.0610906439997052,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:51:49.926854+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.0974857807159424,
+        "monotonic_delta_seconds": 1.051679508998859,
+        "boottime_delta_seconds": 1.051679398999113,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:52:20.343634+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.0604333877563477,
+        "monotonic_delta_seconds": 1.0567642329988303,
+        "boottime_delta_seconds": 1.0567636259984283,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:52:50.580269+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.1010560989379883,
+        "monotonic_delta_seconds": 1.036332167999717,
+        "boottime_delta_seconds": 1.0363326740007324,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:53:21.237864+00:00",
+      "flags": {
+        "wall_delta_seconds": -0.8346729278564453,
+        "monotonic_delta_seconds": 1.1779828170001565,
+        "boottime_delta_seconds": 1.177983036999649,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:53:51.366685+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.0565176010131836,
+        "monotonic_delta_seconds": 1.0367673190012283,
+        "boottime_delta_seconds": 1.036766669998542,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:54:21.413021+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.224226713180542,
+        "monotonic_delta_seconds": 1.036000027999762,
+        "boottime_delta_seconds": 1.0359998260009888,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:54:50.975922+00:00",
+      "flags": {
+        "wall_delta_seconds": -0.9597198963165283,
+        "monotonic_delta_seconds": 1.0597574709991022,
+        "boottime_delta_seconds": 1.0597575800002232,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:55:21.574473+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.0091707706451416,
+        "monotonic_delta_seconds": 1.089090141998895,
+        "boottime_delta_seconds": 1.0890903050003544,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:55:51.067740+00:00",
+      "flags": {
+        "wall_delta_seconds": -0.8437094688415527,
+        "monotonic_delta_seconds": 1.3795386159999907,
+        "boottime_delta_seconds": 1.3795383300002868,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:56:21.423024+00:00",
+      "flags": {
+        "wall_delta_seconds": -0.6269068717956543,
+        "monotonic_delta_seconds": 1.412064300999191,
+        "boottime_delta_seconds": 1.4120643010010099,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:56:51.532921+00:00",
+      "flags": {
+        "wall_delta_seconds": -0.9604153633117676,
+        "monotonic_delta_seconds": 1.3218474249988503,
+        "boottime_delta_seconds": 1.3218467170008807,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:57:21.911736+00:00",
+      "flags": {
+        "wall_delta_seconds": -0.6197056770324707,
+        "monotonic_delta_seconds": 1.464946375001091,
+        "boottime_delta_seconds": 1.4649465940001392,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:57:52.029504+00:00",
+      "flags": {
+        "wall_delta_seconds": -0.8433430194854736,
+        "monotonic_delta_seconds": 1.4354407160008122,
+        "boottime_delta_seconds": 1.4354409349998605,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:58:22.521789+00:00",
+      "flags": {
+        "wall_delta_seconds": -0.7979733943939209,
+        "monotonic_delta_seconds": 1.3606939500004955,
+        "boottime_delta_seconds": 1.360694658000284,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:58:52.880542+00:00",
+      "flags": {
+        "wall_delta_seconds": -0.7513031959533691,
+        "monotonic_delta_seconds": 1.3623368629996548,
+        "boottime_delta_seconds": 1.362337190999824,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:59:21.904940+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.096292495727539,
+        "monotonic_delta_seconds": 1.0395750289990247,
+        "boottime_delta_seconds": 1.0395749189992785,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T22:59:52.252911+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.1824390888214111,
+        "monotonic_delta_seconds": 1.0396160410000448,
+        "boottime_delta_seconds": 1.0396159400006582,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:00:22.671755+00:00",
+      "flags": {
+        "wall_delta_seconds": -0.977381706237793,
+        "monotonic_delta_seconds": 1.118296085998736,
+        "boottime_delta_seconds": 1.118295317999582,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:00:52.044664+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.1587128639221191,
+        "monotonic_delta_seconds": 1.0463841119999415,
+        "boottime_delta_seconds": 1.0463841119999415,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:01:22.239747+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.2143800258636475,
+        "monotonic_delta_seconds": 1.0380582600009802,
+        "boottime_delta_seconds": 1.03805743400153,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:01:52.618482+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.1843039989471436,
+        "monotonic_delta_seconds": 1.045974581000337,
+        "boottime_delta_seconds": 1.04597510900021,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:02:22.008562+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.0978834629058838,
+        "monotonic_delta_seconds": 1.0367005729985976,
+        "boottime_delta_seconds": 1.0367006830001628,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:02:52.379264+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.2773821353912354,
+        "monotonic_delta_seconds": 1.0328853289993276,
+        "boottime_delta_seconds": 1.0328853290011466,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:03:22.676458+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.0475959777832031,
+        "monotonic_delta_seconds": 1.0391341609993106,
+        "boottime_delta_seconds": 1.0391342120001354,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:03:52.924565+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.28350830078125,
+        "monotonic_delta_seconds": 1.0555801800001063,
+        "boottime_delta_seconds": 1.0555802889994084,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:04:22.010535+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.2857208251953125,
+        "monotonic_delta_seconds": 1.0444795509993128,
+        "boottime_delta_seconds": 1.044479518001026,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:04:52.049686+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.3255538940429688,
+        "monotonic_delta_seconds": 1.045088200000464,
+        "boottime_delta_seconds": 1.0450881409997237,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:05:22.137195+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.2027757167816162,
+        "monotonic_delta_seconds": 1.0333710929990048,
+        "boottime_delta_seconds": 1.0333707879999565,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:06:23.165469+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.025439977645874,
+        "monotonic_delta_seconds": 1.047274425998694,
+        "boottime_delta_seconds": 1.0472743190002802,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:06:53.607506+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.0600740909576416,
+        "monotonic_delta_seconds": 1.0669352289987728,
+        "boottime_delta_seconds": 1.0669353359990055,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:07:23.688012+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.1118090152740479,
+        "monotonic_delta_seconds": 1.0584219560005295,
+        "boottime_delta_seconds": 1.0584217429986893,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:07:52.879417+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.0902800559997559,
+        "monotonic_delta_seconds": 1.0370985299996391,
+        "boottime_delta_seconds": 1.0370986349989835,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:08:23.180995+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.0044541358947754,
+        "monotonic_delta_seconds": 1.0459747980003158,
+        "boottime_delta_seconds": 1.0459749049987295,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:08:53.456355+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.1420178413391113,
+        "monotonic_delta_seconds": 1.0377299779993336,
+        "boottime_delta_seconds": 1.0377304020003066,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:09:23.722524+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.0993452072143555,
+        "monotonic_delta_seconds": 1.0345900539996364,
+        "boottime_delta_seconds": 1.0345899460007786,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:09:53.960753+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.0874178409576416,
+        "monotonic_delta_seconds": 1.0414048319998983,
+        "boottime_delta_seconds": 1.0414052619998984,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:10:24.116480+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.070321798324585,
+        "monotonic_delta_seconds": 1.106860518000758,
+        "boottime_delta_seconds": 1.1068610490001447,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:10:53.507486+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.0837585926055908,
+        "monotonic_delta_seconds": 1.0461573310003587,
+        "boottime_delta_seconds": 1.0461571220002952,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:11:23.803556+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.0250182151794434,
+        "monotonic_delta_seconds": 1.0700283160003892,
+        "boottime_delta_seconds": 1.070028424001066,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:11:54.246317+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.0416319370269775,
+        "monotonic_delta_seconds": 1.0768435129994032,
+        "boottime_delta_seconds": 1.0768434059991705,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:12:24.715649+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.0158476829528809,
+        "monotonic_delta_seconds": 1.1017796710002585,
+        "boottime_delta_seconds": 1.101779777000047,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:12:55.078462+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.0041444301605225,
+        "monotonic_delta_seconds": 1.0411803179995331,
+        "boottime_delta_seconds": 1.0411803179995331,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:13:24.372568+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.1045141220092773,
+        "monotonic_delta_seconds": 1.0378660050009785,
+        "boottime_delta_seconds": 1.037865790000069,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:13:54.664872+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.1257567405700684,
+        "monotonic_delta_seconds": 1.0931303260003915,
+        "boottime_delta_seconds": 1.0931302159988263,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:14:24.010196+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.5830354690551758,
+        "monotonic_delta_seconds": 1.039891432999866,
+        "boottime_delta_seconds": 1.0398922909989778,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:14:54.272147+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.1716997623443604,
+        "monotonic_delta_seconds": 1.0665138399999705,
+        "boottime_delta_seconds": 1.0665133029997378,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:15:24.468098+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.1695797443389893,
+        "monotonic_delta_seconds": 1.0422554869983287,
+        "boottime_delta_seconds": 1.0422555940003804,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:15:54.619391+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.2479467391967773,
+        "monotonic_delta_seconds": 1.0572722849992715,
+        "boottime_delta_seconds": 1.0572727159997157,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:16:24.688348+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.157301425933838,
+        "monotonic_delta_seconds": 1.0659958840005856,
+        "boottime_delta_seconds": 1.0659957759999088,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:16:53.889751+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.2363264560699463,
+        "monotonic_delta_seconds": 1.0369076339993626,
+        "boottime_delta_seconds": 1.0369077409995953,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:17:23.934044+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.2930068969726562,
+        "monotonic_delta_seconds": 1.0376780619990313,
+        "boottime_delta_seconds": 1.0376783860010619,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:17:54.208553+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.2453365325927734,
+        "monotonic_delta_seconds": 1.0458433879994118,
+        "boottime_delta_seconds": 1.0458434949996445,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:18:24.405076+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.1933252811431885,
+        "monotonic_delta_seconds": 1.0458815330002835,
+        "boottime_delta_seconds": 1.0458812100005161,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:18:54.239866+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.4242010116577148,
+        "monotonic_delta_seconds": 1.0376725300011458,
+        "boottime_delta_seconds": 1.03767253100159,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:19:24.307753+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.3338689804077148,
+        "monotonic_delta_seconds": 1.0399523100004444,
+        "boottime_delta_seconds": 1.0399516670004232,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:19:53.502170+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.338637113571167,
+        "monotonic_delta_seconds": 1.0577501530005975,
+        "boottime_delta_seconds": 1.057750367999688,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:20:23.557743+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.2591896057128906,
+        "monotonic_delta_seconds": 1.0415837670007022,
+        "boottime_delta_seconds": 1.0415839819997927,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:20:53.622405+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.2416973114013672,
+        "monotonic_delta_seconds": 1.05161084700012,
+        "boottime_delta_seconds": 1.0516105240003526,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:21:23.632666+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.3394582271575928,
+        "monotonic_delta_seconds": 1.0420289659996342,
+        "boottime_delta_seconds": 1.0420289659996342,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:21:53.668330+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.2773590087890625,
+        "monotonic_delta_seconds": 1.0483008490009524,
+        "boottime_delta_seconds": 1.0483009570016293,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:22:22.815040+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.4902379512786865,
+        "monotonic_delta_seconds": 1.0579587000011088,
+        "boottime_delta_seconds": 1.0579588090004108,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:22:53.377158+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.3459045886993408,
+        "monotonic_delta_seconds": 1.0379569870001433,
+        "boottime_delta_seconds": 1.037957093998557,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:23:22.647559+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.289656639099121,
+        "monotonic_delta_seconds": 1.0692126100002497,
+        "boottime_delta_seconds": 1.0692123950011592,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:23:52.909303+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.3725216388702393,
+        "monotonic_delta_seconds": 1.0504276709998521,
+        "boottime_delta_seconds": 1.0504271339996194,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:24:23.335262+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.3330070972442627,
+        "monotonic_delta_seconds": 1.046004873000129,
+        "boottime_delta_seconds": 1.0460051959998964,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:24:52.472064+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.392902135848999,
+        "monotonic_delta_seconds": 1.064661583999623,
+        "boottime_delta_seconds": 1.0646619059989462,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:25:36.510667+00:00",
+      "flags": {
+        "wall_delta_seconds": -2.3583383560180664,
+        "monotonic_delta_seconds": 1.0555552239984536,
+        "boottime_delta_seconds": 1.0555551130000822,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:26:06.754871+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.3347935676574707,
+        "monotonic_delta_seconds": 1.0454677750003611,
+        "boottime_delta_seconds": 1.0454676669996843,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:26:36.151115+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.30424165725708,
+        "monotonic_delta_seconds": 1.059748027999376,
+        "boottime_delta_seconds": 1.0597481339991646,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:27:06.353143+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.4270942211151123,
+        "monotonic_delta_seconds": 1.0807343229989783,
+        "boottime_delta_seconds": 1.0807343220003531,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:27:35.522119+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.3161089420318604,
+        "monotonic_delta_seconds": 1.0510706559998653,
+        "boottime_delta_seconds": 1.051070546000119,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:28:05.686552+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.4299228191375732,
+        "monotonic_delta_seconds": 1.0411283350003941,
+        "boottime_delta_seconds": 1.0411282269997173,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:28:35.903620+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.301539421081543,
+        "monotonic_delta_seconds": 1.0868472330002987,
+        "boottime_delta_seconds": 1.086847017000764,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:29:05.194826+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.3340649604797363,
+        "monotonic_delta_seconds": 1.067060291999951,
+        "boottime_delta_seconds": 1.0670602910013258,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:29:35.534167+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.3800222873687744,
+        "monotonic_delta_seconds": 1.0425656269999308,
+        "boottime_delta_seconds": 1.0425656269999308,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:30:04.679076+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.2925188541412354,
+        "monotonic_delta_seconds": 1.1070744449989434,
+        "boottime_delta_seconds": 1.1070737970003393,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:30:34.821506+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.1465086936950684,
+        "monotonic_delta_seconds": 1.0418567110009462,
+        "boottime_delta_seconds": 1.0418570290003117,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    },
+    {
+      "utc": "2026-10-13T23:31:05.132622+00:00",
+      "flags": {
+        "wall_delta_seconds": -1.0559024810791016,
+        "monotonic_delta_seconds": 1.04218007199961,
+        "boottime_delta_seconds": 1.0421799659998214,
+        "wall_clock_jump": true,
+        "suspend_gap": false,
+        "sample_gap": false,
+        "boot_id_changed": false
+      }
+    }
+  ],
+  "windows_wall_window_seconds": 11682.363441,
+  "windows_stopwatch_window_seconds": 11684.0142171
+}

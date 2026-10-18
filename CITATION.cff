@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Verified Self-Training in a Small Language Model: A Prespecified Case Study on GSM-Symbolic"
+authors:
+  - family-names: Adkins
+    given-names: Lewis
+type: report
+date-released: 2026-10-18
+repository-code: "https://github.com/LewisAdk/qwen3-verified-self-training"
+license: MIT
+notes: "Preprint, not peer-reviewed."

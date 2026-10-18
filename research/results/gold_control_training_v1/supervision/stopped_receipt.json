@@ -1,0 +1,9 @@
+{
+  "status": "stopped",
+  "exception_type": "RuntimeError",
+  "message": "memory_probe stopped: process_failure; code 1",
+  "completed_training": [],
+  "completed_evaluations": [],
+  "settings_changed": false,
+  "no_automatic_restart": true
+}

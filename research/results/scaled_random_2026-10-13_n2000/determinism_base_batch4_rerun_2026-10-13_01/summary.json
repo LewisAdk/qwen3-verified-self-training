@@ -1,0 +1,348 @@
+{
+  "status": "complete",
+  "pooled": {
+    "questions": 400,
+    "same_parsed_answer": 366,
+    "both_null": 9,
+    "prediction_field_changes": 25,
+    "verdict_flips": 6,
+    "fixes": 1,
+    "regressions": 5,
+    "reference_correct": 157,
+    "rerun_correct": 153,
+    "exact_text": 363,
+    "normalized_text": 363,
+    "missing_transitions": 3,
+    "reference_caps": 20,
+    "rerun_caps": 17
+  },
+  "variants": {
+    "p1": {
+      "questions": 200,
+      "same_parsed_answer": 187,
+      "both_null": 2,
+      "prediction_field_changes": 11,
+      "verdict_flips": 2,
+      "fixes": 1,
+      "regressions": 1,
+      "reference_correct": 98,
+      "rerun_correct": 98,
+      "exact_text": 186,
+      "normalized_text": 186,
+      "missing_transitions": 0,
+      "reference_caps": 2,
+      "rerun_caps": 2
+    },
+    "p2": {
+      "questions": 200,
+      "same_parsed_answer": 179,
+      "both_null": 7,
+      "prediction_field_changes": 14,
+      "verdict_flips": 4,
+      "fixes": 0,
+      "regressions": 4,
+      "reference_correct": 59,
+      "rerun_correct": 55,
+      "exact_text": 177,
+      "normalized_text": 177,
+      "missing_transitions": 3,
+      "reference_caps": 18,
+      "rerun_caps": 15
+    }
+  },
+  "changed_records": [
+    {
+      "key": [
+        "p1",
+        14,
+        10
+      ],
+      "before_prediction": "39",
+      "after_prediction": "75",
+      "before_correct": true,
+      "after_correct": false
+    },
+    {
+      "key": [
+        "p1",
+        15,
+        8
+      ],
+      "before_prediction": "296.03174603174603",
+      "after_prediction": "297.5308641975309",
+      "before_correct": false,
+      "after_correct": false
+    },
+    {
+      "key": [
+        "p1",
+        15,
+        14
+      ],
+      "before_prediction": "83.33333333333333",
+      "after_prediction": "83",
+      "before_correct": false,
+      "after_correct": false
+    },
+    {
+      "key": [
+        "p1",
+        16,
+        12
+      ],
+      "before_prediction": "941",
+      "after_prediction": "991",
+      "before_correct": false,
+      "after_correct": false
+    },
+    {
+      "key": [
+        "p1",
+        18,
+        6
+      ],
+      "before_prediction": "164",
+      "after_prediction": "236",
+      "before_correct": false,
+      "after_correct": false
+    },
+    {
+      "key": [
+        "p1",
+        21,
+        11
+      ],
+      "before_prediction": "0.67",
+      "after_prediction": "0.079166667",
+      "before_correct": false,
+      "after_correct": false
+    },
+    {
+      "key": [
+        "p1",
+        58,
+        8
+      ],
+      "before_prediction": "76160",
+      "after_prediction": "61608",
+      "before_correct": false,
+      "after_correct": false
+    },
+    {
+      "key": [
+        "p1",
+        58,
+        13
+      ],
+      "before_prediction": "108000",
+      "after_prediction": "7200",
+      "before_correct": false,
+      "after_correct": false
+    },
+    {
+      "key": [
+        "p1",
+        76,
+        14
+      ],
+      "before_prediction": "724",
+      "after_prediction": "744",
+      "before_correct": false,
+      "after_correct": false
+    },
+    {
+      "key": [
+        "p1",
+        93,
+        12
+      ],
+      "before_prediction": "31",
+      "after_prediction": "157",
+      "before_correct": false,
+      "after_correct": false
+    },
+    {
+      "key": [
+        "p1",
+        97,
+        10
+      ],
+      "before_prediction": "896",
+      "after_prediction": "840",
+      "before_correct": false,
+      "after_correct": true
+    },
+    {
+      "key": [
+        "p2",
+        0,
+        12
+      ],
+      "before_prediction": null,
+      "after_prediction": "13.5",
+      "before_correct": false,
+      "after_correct": false
+    },
+    {
+      "key": [
+        "p2",
+        24,
+        5
+      ],
+      "before_prediction": null,
+      "after_prediction": "700",
+      "before_correct": false,
+      "after_correct": false
+    },
+    {
+      "key": [
+        "p2",
+        24,
+        10
+      ],
+      "before_prediction": null,
+      "after_prediction": "0.97",
+      "before_correct": false,
+      "after_correct": false
+    },
+    {
+      "key": [
+        "p2",
+        24,
+        12
+      ],
+      "before_prediction": "80",
+      "after_prediction": "79",
+      "before_correct": false,
+      "after_correct": false
+    },
+    {
+      "key": [
+        "p2",
+        24,
+        14
+      ],
+      "before_prediction": "360",
+      "after_prediction": "48",
+      "before_correct": false,
+      "after_correct": false
+    },
+    {
+      "key": [
+        "p2",
+        27,
+        10
+      ],
+      "before_prediction": "32",
+      "after_prediction": "30",
+      "before_correct": true,
+      "after_correct": false
+    },
+    {
+      "key": [
+        "p2",
+        27,
+        12
+      ],
+      "before_prediction": "32",
+      "after_prediction": "24",
+      "before_correct": false,
+      "after_correct": false
+    },
+    {
+      "key": [
+        "p2",
+        33,
+        6
+      ],
+      "before_prediction": "5",
+      "after_prediction": "30",
+      "before_correct": false,
+      "after_correct": false
+    },
+    {
+      "key": [
+        "p2",
+        36,
+        11
+      ],
+      "before_prediction": "13.33",
+      "after_prediction": "13",
+      "before_correct": false,
+      "after_correct": false
+    },
+    {
+      "key": [
+        "p2",
+        39,
+        7
+      ],
+      "before_prediction": "40",
+      "after_prediction": "20",
+      "before_correct": true,
+      "after_correct": false
+    },
+    {
+      "key": [
+        "p2",
+        39,
+        11
+      ],
+      "before_prediction": "50",
+      "after_prediction": "25",
+      "before_correct": true,
+      "after_correct": false
+    },
+    {
+      "key": [
+        "p2",
+        40,
+        8
+      ],
+      "before_prediction": "-762",
+      "after_prediction": "449",
+      "before_correct": false,
+      "after_correct": false
+    },
+    {
+      "key": [
+        "p2",
+        45,
+        7
+      ],
+      "before_prediction": "6",
+      "after_prediction": "0",
+      "before_correct": true,
+      "after_correct": false
+    },
+    {
+      "key": [
+        "p2",
+        45,
+        8
+      ],
+      "before_prediction": "0",
+      "after_prediction": "6",
+      "before_correct": false,
+      "after_correct": false
+    }
+  ],
+  "secondary_v2_correct": 153,
+  "secondary_v2_changes": 0,
+  "elapsed_wall_minutes": 22.51142652608333,
+  "peak_allocated_gib": 3.6671223640441895,
+  "peak_reserved_gib": 4.00390625,
+  "device_wide": {
+    "sampled_peak_device_wide_gib": 5.3974609375,
+    "total_device_gib": 8.0,
+    "samples": 1250,
+    "query_errors": 0,
+    "sampling_interval_seconds": 1,
+    "brief_peaks_may_be_missed": true,
+    "device_wide_not_process_specific": true,
+    "clock_event_samples": 0,
+    "windows_clock_samples": 126,
+    "windows_clock_errors": 0,
+    "clock_fields": "WSL UTC/wall, monotonic, CLOCK_BOOTTIME, uptime, boot_id; Windows UTC/Stopwatch/tick counter about every 10 seconds"
+  }
+}

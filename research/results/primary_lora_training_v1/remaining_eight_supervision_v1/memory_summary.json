@@ -1,0 +1,21 @@
+{
+  "status": "between_7_5_and_ceiling",
+  "sample_count": 61,
+  "sampled_peak_device_memory_gib": 7.73828125,
+  "total_device_gib": 8.0,
+  "interpretation": "Near-ceiling band; report observed usage and training time without changing settings",
+  "sampling_seconds": 5,
+  "brief_peaks_may_be_missed": true,
+  "device_wide_not_process_specific": true,
+  "query_errors": [],
+  "training_window": {
+    "status": "between_7_5_and_ceiling",
+    "sample_count": 57,
+    "sampled_peak_device_memory_gib": 7.73828125,
+    "total_device_gib": 8.0,
+    "interpretation": "Near-ceiling band; report observed usage and training time without changing settings",
+    "sampling_seconds": 5,
+    "brief_peaks_may_be_missed": true,
+    "device_wide_not_process_specific": true
+  }
+}

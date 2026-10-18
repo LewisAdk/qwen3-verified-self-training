@@ -1,0 +1,32 @@
+{
+  "independent_export_validation": "PASS",
+  "exact_epoch_shuffle_reproduced": true,
+  "each_problem_seen_once_per_epoch": true,
+  "constant_learning_rate": true,
+  "final_adapter_checksums_match": true,
+  "actual_successful_updates": 150,
+  "skipped_updates": 0,
+  "cpu_adapter_tensor_validation": {
+    "tensors": 112,
+    "all_finite": true,
+    "rank": 4,
+    "target_modules": [
+      "q_proj",
+      "v_proj"
+    ]
+  },
+  "other_models_started": 0,
+  "training_settings_changed": false,
+  "memory_observation": {
+    "probe_reserved_gib": 5.16796875,
+    "full_reserved_gib": 10.6171875,
+    "full_allocated_gib": 5.012831687927246,
+    "device_total_gib": 7.99969482421875,
+    "out_of_memory": false,
+    "dedicated_vram_peak_measured": false,
+    "cause_of_above_capacity_reservation": "not established",
+    "installed_torch": "2.11.0+cu126",
+    "fresh_process_default_allocator": "native",
+    "driver": "610.74"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "status": "validated",
+  "questions": 2400,
+  "attempts": 9600,
+  "eligible": 2244,
+  "counts_by_correct_out_of_four": [
+    156,
+    188,
+    288,
+    445,
+    1323
+  ],
+  "blocks": [
+    {
+      "start": 1636,
+      "count": 2400,
+      "global_batch_offset": 0,
+      "folder": "/home/lewis/rsi-research/results/scaled_random_2026-10-13_n2000/labeling/block_1636_4035",
+      "manifest_sha256": "2369dcef4a0176e4399699e91360aeb1a77e6b2aa8956e829ac2965733f0845f"
+    }
+  ],
+  "elapsed_wall_minutes": 206.36354748498334,
+  "generation_decode_minutes": 206.06541613975054
+}

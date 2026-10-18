@@ -1,0 +1,11 @@
+{
+  "approved_fix": "CPU context does not require post-pass receipts; all checks complete before CPU receipt/source manifest/gate publication; GPU entry points bind gate hash and verify receipt/source hashes before model execution",
+  "changed_functions_beyond_receipt_path_literals": [
+    "sources",
+    "training_engine"
+  ],
+  "unchanged_training_generation_scoring_analysis": true,
+  "additional_preflight_reruns_used": 0,
+  "setup_harness_correction": "Initial setup assertion mistakenly included make_evaluation_contract in the changed-function list; corrected expected list, verified its AST actually unchanged. No source adjustment needed for this setup correction.",
+  "failed_versions_preserved": true
+}

@@ -1,0 +1,27 @@
+{
+  "first_system": {
+    "wall_epoch": 1791921344.7172399,
+    "utc": "2026-10-13T19:55:44.717243+00:00",
+    "monotonic_seconds": 253.891459461,
+    "boottime_seconds": 253.891460648,
+    "uptime_seconds": 253.89,
+    "boot_id": "51178ec2-7d8b-4dcc-9582-369b08c8d372"
+  },
+  "last_system": {
+    "wall_epoch": 1791922628.9813848,
+    "utc": "2026-10-13T20:17:08.981387+00:00",
+    "monotonic_seconds": 1604.08890931,
+    "boottime_seconds": 1604.088910158,
+    "uptime_seconds": 1604.08,
+    "boot_id": "51178ec2-7d8b-4dcc-9582-369b08c8d372"
+  },
+  "WSL_wall_elapsed_seconds": 1284.264144897461,
+  "WSL_monotonic_elapsed_seconds": 1350.197449849,
+  "WSL_boottime_elapsed_seconds": 1350.19744951,
+  "Windows_wall_elapsed_seconds": 1280.0200400352478,
+  "Windows_stopwatch_elapsed_seconds": 1280.0190256,
+  "max_absolute_single_sample_wall_minus_monotonic_delta": 1.7083898961659543,
+  "sample_gap_flags": 0,
+  "sleep_gap_flags": 0,
+  "boot_ids": 1
+}

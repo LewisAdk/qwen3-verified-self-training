@@ -1,0 +1,9 @@
+{
+  "stage": "probe",
+  "supervisor_pid": 414,
+  "utc": "2026-10-13T23:44:43.208830+00:00",
+  "wall_epoch": 1791935083.1729598,
+  "monotonic": 199.981395734,
+  "budget_seconds": 300,
+  "full_training_authorized": false
+}

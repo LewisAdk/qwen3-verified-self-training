@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "checks": {
+    "complete_2400_problems_9600_attempts_and_saved_v1_verdicts": true,
+    "independent_seeded_selection_and_correct_candidate_reproduced": true,
+    "unaltered_targets_and_train_questions": true,
+    "prompt_target_EOS_lengths_and_masks": true,
+    "all_lengths_at_most_1024": true,
+    "CUDA_uninitialized": true
+  },
+  "format_guard_failures": [],
+  "eligible": 2244,
+  "set_sha256": "ca030c17dc2fe1d193a908099bf12cc66929f3ec461170aef44998578085de62",
+  "protected": {
+    "verified": 2299,
+    "mismatches": [],
+    "utc": "2026-10-13T23:44:30.980916+00:00",
+    "partial_run_preserved": true
+  },
+  "full_training_started": false,
+  "verification_setup_note": "Initial read-only verification used legacy START/COUNT defaults and failed before reading batches; corrected explicitly to frozen block metadata."
+}

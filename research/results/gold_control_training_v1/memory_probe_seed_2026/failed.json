@@ -1,0 +1,9 @@
+{
+  "status": "failed_or_interrupted",
+  "exception_type": "RuntimeError",
+  "message": "CUDA unavailable; stopped without changing settings",
+  "no_automatic_setting_changes": true,
+  "restart_policy": "fresh base, new output folder",
+  "out_of_memory": false,
+  "final_adapter_complete": false
+}

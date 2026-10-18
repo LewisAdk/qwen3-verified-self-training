@@ -1,0 +1,14 @@
+{
+  "failed_test": "evaluation_generation_code_identity",
+  "scope": "Test harness compilation context only",
+  "fix": "Load the entire frozen original evaluator module for code comparison; preserve standalone failed test version",
+  "generation_unchanged": true,
+  "source_hash_matches": true,
+  "original_vs_whole_module_code_equal": true,
+  "isolated_normalized_instructions_equal": false,
+  "original_instruction_count": 880,
+  "isolated_instruction_count": 880,
+  "additional_preflight_reruns_used": 1,
+  "remaining": 1,
+  "GPU_started": false
+}

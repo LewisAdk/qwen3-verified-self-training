@@ -1,0 +1,8 @@
+{
+  "failed_test": "cpu_tests.py",
+  "failure": "Test did not configure START/COUNT before calling new-pool context",
+  "correction": "Set test helper START=1636 COUNT=2400, unique fixture path; replace redundant AST self-comparison with frozen source hash check",
+  "replacement": "cpu_tests_v2.py",
+  "GPU_started": false,
+  "original_files_changed": false
+}

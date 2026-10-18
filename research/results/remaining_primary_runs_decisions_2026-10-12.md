@@ -1,0 +1,10 @@
+# Remaining primary training runs — October 12, 2026
+
+Authorized sequence: hard/2027, hard/2028, random/2026–2028, easy/2026–2028. Run one model at a time using the unchanged train_primary_lora_v1.py and existing approved sets. Preserve all settings, source hashes, pinned weights, paired seeds and final-adapter-only policy. Stop before evaluation.
+
+- During hard/2027 only, a separate read-only nvidia-smi logger samples device-wide memory.used for GPU 0 every five seconds. Store raw MiB and report GiB. The agreed “about 7.5 GB” threshold is 7.5 GiB. Other applications are included; samples can miss brief peaks.
+- If sampled usage remains below 7.5 GiB, classify the earlier 10.62 GiB reservation as allocator accounting under the user's decision rule. This inference does not retrospectively measure hard/2026's dedicated-memory peak. If usage reaches the 8 GiB ceiling, report that and training duration without changing settings. The intermediate 7.5–8 GiB band is reported explicitly. Memory readings alone do not stop training.
+- Stop the entire sequence on CUDA OOM, non-finite loss, any FP16 skipped update, or training time exceeding 10.24 minutes (twice the stipulated 5.12-minute baseline). Time excludes preflight/model loading and follows the trainer's existing start/end perf_counter calls. Report any unexpected process/infrastructure failure instead of silently proceeding.
+- Observe time through a small launcher proxy that returns the original clock values and emits start/end markers; do not edit the trainer or alter optimizer, model, precision, data, scheduler, gradients, RNG or checkpoint behavior. Enforce stopping from outside the trainer with SIGINT when required. An interrupted run remains incomplete and retains no resumable training checkpoint.
+- The original trainer's overflow logging is unchanged; the supervisor stops it immediately upon observing a skipped-step line. Do not compensate with extra training, adjust scaling settings, or restart automatically.
+- Save new logs, metrics, final adapters and an aggregate report. After all eight, stop for user review before any evaluation.

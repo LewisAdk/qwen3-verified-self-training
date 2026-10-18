@@ -1,0 +1,105 @@
+{
+  "status": "passed",
+  "training_checks": [
+    {
+      "seed": 2026,
+      "passed": true,
+      "updates": 150,
+      "skips": 0,
+      "finite_adapter_tensors": 112
+    },
+    {
+      "seed": 2027,
+      "passed": true,
+      "updates": 150,
+      "skips": 0,
+      "finite_adapter_tensors": 112
+    },
+    {
+      "seed": 2028,
+      "passed": true,
+      "updates": 150,
+      "skips": 0,
+      "finite_adapter_tensors": 112
+    }
+  ],
+  "unchanged_core_trainer_verified": true,
+  "all_gold_examples_used_each_epoch": true,
+  "original_plan_and_data_preserved": true,
+  "base_and_hard_batches_byte_identical": true,
+  "models": 7,
+  "questions_per_model": 400,
+  "new_gold_outputs": 1200,
+  "original_families": 37,
+  "reserved_families_untouched": 63,
+  "primary_and_secondary_bootstraps_independently_reproduced": {
+    "gold_minus_base": {
+      "estimate_pp": -6.333333333333333,
+      "ci95_pp": [
+        -14.523962148962148,
+        2.2765297389815986
+      ]
+    },
+    "gold_minus_hard": {
+      "estimate_pp": -8.333333333333334,
+      "ci95_pp": [
+        -16.50416182733256,
+        -0.24984756097561198
+      ]
+    }
+  },
+  "timing": {
+    "base": {
+      "generation_seconds": 686.8407027990011,
+      "generation_minutes": 11.447345046650018,
+      "base_or_hard_reused": true,
+      "no_parsed_answer": 12,
+      "tokens_at_limit": 20
+    },
+    "gold_seed_2026": {
+      "generation_seconds": 899.743161302001,
+      "generation_minutes": 14.99571935503335,
+      "base_or_hard_reused": false,
+      "no_parsed_answer": 20,
+      "tokens_at_limit": 20
+    },
+    "gold_seed_2027": {
+      "generation_seconds": 823.9148512369998,
+      "generation_minutes": 13.73191418728333,
+      "base_or_hard_reused": false,
+      "no_parsed_answer": 13,
+      "tokens_at_limit": 14
+    },
+    "gold_seed_2028": {
+      "generation_seconds": 842.3011166969995,
+      "generation_minutes": 14.038351944949993,
+      "base_or_hard_reused": false,
+      "no_parsed_answer": 16,
+      "tokens_at_limit": 18
+    },
+    "hard_seed_2026": {
+      "generation_seconds": 811.6887101839998,
+      "generation_minutes": 13.52814516973333,
+      "base_or_hard_reused": true,
+      "no_parsed_answer": 11,
+      "tokens_at_limit": 11
+    },
+    "hard_seed_2027": {
+      "generation_seconds": 799.2694610179989,
+      "generation_minutes": 13.321157683633315,
+      "base_or_hard_reused": true,
+      "no_parsed_answer": 13,
+      "tokens_at_limit": 14
+    },
+    "hard_seed_2028": {
+      "generation_seconds": 819.7595819309993,
+      "generation_minutes": 13.662659698849987,
+      "base_or_hard_reused": true,
+      "no_parsed_answer": 8,
+      "tokens_at_limit": 10
+    }
+  },
+  "all_protected_hashes_match": true,
+  "validation_gpu_used": false,
+  "additional_experiment_run": false
+}

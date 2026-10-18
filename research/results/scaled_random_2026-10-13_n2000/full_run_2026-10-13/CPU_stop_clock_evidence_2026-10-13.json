@@ -1,0 +1,18 @@
+{
+  "maximum_recorded_wall_clock_flag_seconds": 3.41389358001652,
+  "event": {
+    "utc": "2026-10-13T23:25:36.510667+00:00",
+    "flags": {
+      "wall_delta_seconds": -2.3583383560180664,
+      "monotonic_delta_seconds": 1.0555552239984536,
+      "boottime_delta_seconds": 1.0555551130000822,
+      "wall_clock_jump": true,
+      "suspend_gap": false,
+      "sample_gap": false,
+      "boot_id_changed": false
+    }
+  },
+  "scope": "Previously completed labeling log; no full training/evaluation phase ran",
+  "definition": "Absolute difference between successive wall-clock and monotonic deltas",
+  "cause_unconfirmed": true
+}

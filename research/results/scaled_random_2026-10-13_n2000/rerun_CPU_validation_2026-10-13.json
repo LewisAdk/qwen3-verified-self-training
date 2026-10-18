@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "tests": [
+    "generation_function_names_identity",
+    "only_three_approved_path_constants_changed",
+    "new_unique_rerun_path",
+    "partial_preserved_47_batches",
+    "Windows_clock_available",
+    "WSL_clock_fields",
+    "clock_jump_detected",
+    "suspend_gap_detected",
+    "long_sample_gap_visible",
+    "full_training_still_unavailable",
+    "no_CUDA_initialized"
+  ],
+  "test_count": 11,
+  "windows_clock_test": {
+    "utc": "2026-10-13T19:54:56.1108832Z",
+    "stopwatch_ticks": 36299062062,
+    "stopwatch_frequency": 10000000,
+    "tick_ms": 3629875
+  },
+  "no_GPU_work": true,
+  "original_CPU_checks_still_valid": 79,
+  "bytecode_assertion_note": "First assertion was overly strict for recompilation: compiler call-opcode layout differs but names and all non-code constants are identical except the three approved paths. No generation-setting change."
+}

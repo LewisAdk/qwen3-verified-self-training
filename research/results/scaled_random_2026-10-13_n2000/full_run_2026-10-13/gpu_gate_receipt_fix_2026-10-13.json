@@ -1,0 +1,7 @@
+{
+  "receipt_hashes": {
+    "/home/lewis/rsi-research/results/scaled_random_2026-10-13_n2000/full_run_2026-10-13/cpu_validation_receipt_fix_2026-10-13.json": "e5414ec4bf973ad726a26d2a218f0a701b130f3a40ed29251751ad3dd9f90da6",
+    "/home/lewis/rsi-research/results/scaled_random_2026-10-13_n2000/full_run_2026-10-13/source_manifest_receipt_fix_2026-10-13.json": "b24f3e5098ac565ae535ca798c8023c74c0eb1c35e3c2fbc8f068ba9af22bcf4"
+  },
+  "complete_CPU_pass_required": true
+}

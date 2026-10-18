@@ -1,0 +1,14 @@
+{
+  "stage": "evaluate",
+  "seed": 2027,
+  "supervisor_pid": 386,
+  "system": {
+    "wall_epoch": 1791943448.777534,
+    "utc": "2026-10-14T02:04:08.777534+00:00",
+    "monotonic_seconds": 6381.306384613,
+    "boottime_seconds": 6381.306384917,
+    "uptime_seconds": 6381.3,
+    "boot_id": "ff414fec-7838-4541-8029-5e71e3b75a4d"
+  },
+  "budget_seconds": 1800
+}

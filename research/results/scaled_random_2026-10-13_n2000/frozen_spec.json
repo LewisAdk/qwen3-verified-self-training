@@ -1,0 +1,18 @@
+{
+  "N": 2000,
+  "start": 1636,
+  "initial_count": 2400,
+  "topup_count": 200,
+  "train_seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "label_wall_limit_seconds": 18000,
+  "determinism_limit_seconds": 1800,
+  "probe_limit_seconds": 300,
+  "primary_success": "both intervals lower endpoints strictly above zero",
+  "full_training_authorized": false,
+  "amended_plan_sha256": "f44359591f2b25dcc2a13d664a2e55ef5f6195ba0b94c053dbc3fa4308be3306",
+  "draft_plan_sha256": "68408d1b22f6807a53ae45a53835ccedac11d48803b75e4f29eedec110da4a58"
+}

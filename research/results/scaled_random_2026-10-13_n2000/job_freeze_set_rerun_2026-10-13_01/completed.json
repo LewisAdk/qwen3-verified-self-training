@@ -1,0 +1,9 @@
+{
+  "stage": "freeze_set",
+  "exit_code": 0,
+  "timed_out": false,
+  "utc": "2026-10-13T23:42:12.331222+00:00",
+  "wall_elapsed_seconds": 30.109391450881958,
+  "monotonic_elapsed_seconds": 30.109392868,
+  "full_training_started": false
+}

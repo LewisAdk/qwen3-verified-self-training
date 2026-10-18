@@ -1,0 +1,45 @@
+{
+  "stage": "CPU_preflight",
+  "stop_reason": "training_execute_bytecode_identity assertion failed on marshal.dumps serialization",
+  "engine_source_sha256": "d8381ab86bb6020293121dc5dd32dac113901fbb8ddac8540fe4d777cea5a1b9",
+  "expected_source_sha256": "d8381ab86bb6020293121dc5dd32dac113901fbb8ddac8540fe4d777cea5a1b9",
+  "code_attributes_equal": {
+    "co_argcount": true,
+    "co_posonlyargcount": true,
+    "co_kwonlyargcount": true,
+    "co_nlocals": true,
+    "co_stacksize": true,
+    "co_flags": true,
+    "co_code": true,
+    "co_consts": true,
+    "co_names": true,
+    "co_varnames": true,
+    "co_filename": true,
+    "co_name": true,
+    "co_qualname": true,
+    "co_firstlineno": true,
+    "co_linetable": true,
+    "co_exceptiontable": true,
+    "co_freevars": true,
+    "co_cellvars": true
+  },
+  "code_object_equality": true,
+  "marshal_serialization_equal": false,
+  "filenames": [
+    "/home/lewis/rsi-research/train_primary_lora_v1.py",
+    "/home/lewis/rsi-research/train_primary_lora_v1.py"
+  ],
+  "GPU_started": false,
+  "full_training_started": false,
+  "new_accuracy_inspected": false,
+  "no_retry": true,
+  "no_settings_changed": true,
+  "system": {
+    "wall_epoch": 1791936500.63708,
+    "utc": "2026-10-14T00:08:20.637083+00:00",
+    "monotonic_seconds": 108.613816685,
+    "boottime_seconds": 108.613817878,
+    "uptime_seconds": 108.61,
+    "boot_id": "fcefcf86-71ee-40e3-98fb-80d560ec5386"
+  }
+}
